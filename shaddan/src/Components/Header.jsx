@@ -33,12 +33,12 @@ export default function Header() {
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
-                  Home
+                  HOME
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
-                  About
+                  ABOUT
                 </a>
               </li>
 
@@ -51,7 +51,7 @@ export default function Header() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Quality Policy
+                  QuUALITY POLICY
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
@@ -83,7 +83,7 @@ export default function Header() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Factory Tour
+              FACTORY TOUR
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
@@ -108,17 +108,17 @@ export default function Header() {
               </li>
                 <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
-                  Projects
+                  PROJECTS
                 </a>
               </li>
                 <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
-                 ERP nitiative
+                 ERP INITIATIVE
                 </a>
               </li>
             </ul>
             <form className="d-flex">
-              <button className="btn btn-outline-success" type="submit">
+              <button className="btn btn-success" type="submit">
                 Contact
               </button>
             </form>

@@ -4,3 +4,7 @@
   height: 70px !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+.nav-item .nav-link{
+
+    font-size: 18px !important;
+}
