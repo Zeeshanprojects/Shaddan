@@ -15,81 +15,21 @@ export default function Home() {
           <p>We Provide Quality Products</p>
         </div>
       </div>
-     <div className="container-fluid p-5 bg-light">
-  <div className="row text-center mb-4">
-    <h1 className="fw-bold text-uppercase">Shaddan Textiles Industries</h1>
-    <h5>
-      Our Product lines are Knitted Garments / Knitted Fitted Sheet / Terry
-      Towel & Bathrobes / Textile Made-ups
-    </h5>
-  </div>
-
-  {/* Products Section */}
-  <div className="row justify-content-center text-center g-4">
-    <div className="col-10 col-sm-6 col-md-4 col-lg-2">
-      <div className="p-4 shadow rounded bg-white">
-        <img
-          src="your-image-path/knitted-garments.jpg"
-          alt="Knitted Garments"
-          className="img-fluid rounded mb-3"
-        />
-        <h6 className="fw-bold text-success">Knitted Garments</h6>
+      <div className="container-fluid p-5 bg-color">
+        <div className="row text-center my-3">
+          <h1 className="fw-bold text-uppercase">
+            Shaddan Textiles Industries
+          </h1>
+          <h5>
+            Our Product lines are Knitted Garments /Knitted Fitted Sheet /Terry
+            Towel & Bathrobes / Textile Made-up
+          </h5>
+          <p className=" w-100 ps-5 pe-5">
+         .
+          </p>
+        </div>
+        <div className="d-flex justify-content-center"></div>
       </div>
-    </div>
-
-    <div className="col-10 col-sm-6 col-md-4 col-lg-2">
-      <div className="p-4 shadow rounded bg-white">
-        <img
-          src="your-image-path/towels.jpg"
-          alt="Towels"
-          className="img-fluid rounded mb-3"
-        />
-        <h6 className="fw-bold text-success">Towels</h6>
-      </div>
-    </div>
-
-    <div className="col-10 col-sm-6 col-md-4 col-lg-2">
-      <div className="p-4 shadow rounded bg-white">
-        <img
-          src="your-image-path/fitted-sheet.jpg"
-          alt="Knitted Fitted Sheet"
-          className="img-fluid rounded mb-3"
-        />
-        <h6 className="fw-bold text-success">Knitted Fitted Sheet</h6>
-      </div>
-    </div>
-
-    <div className="col-10 col-sm-6 col-md-4 col-lg-2">
-      <div className="p-4 shadow rounded bg-white">
-        <img
-          src="your-image-path/bathrobes.jpg"
-          alt="Bathrobes"
-          className="img-fluid rounded mb-3"
-        />
-        <h6 className="fw-bold text-success">Bathrobes</h6>
-      </div>
-    </div>
-
-    <div className="col-10 col-sm-6 col-md-4 col-lg-2">
-      <div className="p-4 shadow rounded bg-white">
-        <img
-          src="your-image-path/woven-bedlinen.jpg"
-          alt="Woven Bedlinen"
-          className="img-fluid rounded mb-3"
-        />
-        <h6 className="fw-bold text-success">Woven Bedlinen</h6>
-      </div>
-    </div>
-  </div>
-
-  {/* Button */}
-  <div className="d-flex justify-content-center mt-5">
-    <button type="button" className="btn btn-outline-success px-4 py-2">
-      READ MORE
-    </button>
-  </div>
-</div>
-
       <div className="container-fluid position-relative p-0">
         <img
           src={Images.banner2}
