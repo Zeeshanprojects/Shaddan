@@ -40,7 +40,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="container divisions-section py-5">
+      <div className="container divisions-section my-5 py-5">
         <div className="text-center mb-5">
           <h1 className="fw-bold text-uppercase">Our Divisions</h1>
           <p className="text-muted w-75 mx-auto">
