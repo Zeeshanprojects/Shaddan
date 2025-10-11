@@ -16,7 +16,8 @@ export default function Header() {
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Shaddan Textile
+            <img src={Images.logo} alt="logo" height={200} width={200}/>
+          
           </a>
           <button
             className="navbar-toggler"
