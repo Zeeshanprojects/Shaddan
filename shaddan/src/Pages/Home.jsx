@@ -17,7 +17,7 @@ export default function Home() {
       </div>
       <div className="container-fluid p-5 bg-color">
         <div className="row text-center my-5">
-          <h1 className="fw-bold text-success text-uppercase">
+          <h1 className="fw-bold text-uppercase">
             Shaddan Textiles Industries
           </h1>
           <h5>
@@ -40,9 +40,9 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="container-fluid divisions-section py-5">
+      <div className="container divisions-section py-5">
         <div className="text-center mb-5">
-          <h1 className="fw-bold text-success text-uppercase">Our Divisions</h1>
+          <h1 className="fw-bold text-uppercase">Our Divisions</h1>
           <p className="text-muted w-75 mx-auto">
             Shaddan Textile Industries operates through specialized divisions
             focused on innovation, quality, and craftsmanship — ensuring
@@ -53,7 +53,7 @@ export default function Home() {
         <div className="row justify-content-center text-center">
           {/* Yarn Division */}
           <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
-            <div className="division-card p-4">
+            <div className="card p-4 h-100">
               <i className="fas fa-dna fa-3x text-success mb-3"></i>
               <h5 className="fw-bold mb-2">Yarn Division</h5>
               <p className="text-muted">
@@ -65,7 +65,7 @@ export default function Home() {
 
           {/* Fabrics Division */}
           <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
-            <div className="division-card p-4">
+            <div className="card p-4 h-100">
               <i className="fas fa-layer-group fa-3x text-success mb-3"></i>
               <h5 className="fw-bold mb-2">Fabrics Division</h5>
               <p className="text-muted">
@@ -77,7 +77,7 @@ export default function Home() {
 
           {/* Workwear Division */}
           <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
-            <div className="division-card p-4">
+            <div className="card p-4 h-100">
               <i className="fas fa-user-shield fa-3x text-success mb-3"></i>
               <h5 className="fw-bold mb-2">Workwear Division</h5>
               <p className="text-muted">
@@ -89,7 +89,7 @@ export default function Home() {
 
           {/* Garment Division */}
           <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
-            <div className="division-card p-4">
+            <div className="card p-4 h-100">
               <i className="fas fa-tshirt fa-3x text-success mb-3"></i>
               <h5 className="fw-bold mb-2">Garment Division</h5>
               <p className="text-muted">
@@ -105,7 +105,7 @@ export default function Home() {
       {/* Production Process Section */}
       <div className="container-fluid p-5 production-section py-5">
         <div className="text-center mb-5">
-          <h1 className="fw-bold text-success text-uppercase">
+          <h1 className="fw-bold  text-uppercase">
             Our Production Process
           </h1>
           <p>
@@ -160,7 +160,7 @@ export default function Home() {
 
       <div className="container why-choose-section my-5 py-5">
         <div className="text-center mb-5">
-          <h1 className="fw-bold text-success text-uppercase">Why Choose Us</h1>
+          <h1 className="fw-bold text-uppercase">Why Choose Us</h1>
           <p className="text-muted w-75 mx-auto">
             At Shaddan Textile Industries, we take pride in delivering
             excellence at every stage of textile manufacturing. Our commitment
@@ -172,7 +172,7 @@ export default function Home() {
         <div className="row text-center">
           {/* Card 1 */}
           <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
-            <div className="choose-card p-4 h-100">
+            <div className="card  p-4 h-100">
               <i className="fas fa-industry fa-3x text-success mb-3"></i>
               <h5 className="fw-bold mb-2">State-of-the-Art Facilities</h5>
               <p className="text-muted">
@@ -184,7 +184,7 @@ export default function Home() {
 
           {/* Card 2 */}
           <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
-            <div className="choose-card p-4 h-100">
+            <div className="card p-4 h-100">
               <i className="fas fa-leaf fa-3x text-success mb-3"></i>
               <h5 className="fw-bold mb-2">Eco-Friendly Production</h5>
               <p className="text-muted">
@@ -196,7 +196,7 @@ export default function Home() {
 
           {/* Card 3 */}
           <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
-            <div className="choose-card p-4 h-100">
+            <div className="card p-4 h-100">
               <i className="fas fa-users-cog fa-3x text-success mb-3"></i>
               <h5 className="fw-bold mb-2">Skilled Workforce</h5>
               <p className="text-muted">
@@ -208,7 +208,7 @@ export default function Home() {
 
           {/* Card 4 */}
           <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
-            <div className="choose-card p-4 h-100">
+            <div className="card p-4 h-100">
               <i className="fas fa-globe fa-3x text-success mb-3"></i>
               <h5 className="fw-bold mb-2">Global Reach</h5>
               <p className="text-muted">
