@@ -45,67 +45,30 @@ export default function Home() {
 </div>
 
       </div>
-      <div className="container divisions-section my-5 py-5">
-        <div className="text-center mb-5">
-          <h1 className="fw-bold text-uppercase">Our Divisions</h1>
-          <p className="text-muted w-75 mx-auto">
-            Shaddan Textile Industries operates through specialized divisions
-            focused on innovation, quality, and craftsmanship — ensuring
-            excellence from yarn creation to finished garments.
-          </p>
-        </div>
+  <div className="container-fluid position-relative p-0">
+  <img
+    src={Images.banner2}
+    alt="Division Banner"
+    className="img-fluid w-100"
+    style={{
+      height: "75vh",         // Adjust height for landscape look
+      objectFit: "cover",     // Keeps image proportionally scaled
+      filter: "brightness(70%)" // Slight dark effect for readable text
+    }}
+  />
 
-        <div className="row justify-content-center text-center">
-          {/* Yarn Division */}
-          <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
-            <div className="card p-4 h-100">
-              <i className="fas fa-dna fa-3x text-success mb-3"></i>
-              <h5 className="fw-bold mb-2">Yarn Division</h5>
-              <p className="text-muted">
-                High-quality yarn production using premium raw materials and
-                advanced spinning technology to ensure strength and consistency.
-              </p>
-            </div>
-          </div>
-
-          {/* Fabrics Division */}
-          <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
-            <div className="card p-4 h-100">
-              <i className="fas fa-layer-group fa-3x text-success mb-3"></i>
-              <h5 className="fw-bold mb-2">Fabrics Division</h5>
-              <p className="text-muted">
-                Specialized in knitted and woven fabrics with superior finishing
-                and dyeing, ensuring softness, durability, and color fastness.
-              </p>
-            </div>
-          </div>
-
-          {/* Workwear Division */}
-          <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
-            <div className="card p-4 h-100">
-              <i className="fas fa-user-shield fa-3x text-success mb-3"></i>
-              <h5 className="fw-bold mb-2">Workwear Division</h5>
-              <p className="text-muted">
-                Manufacturing high-performance uniforms and protective clothing
-                designed for safety, comfort, and professional appearance.
-              </p>
-            </div>
-          </div>
-
-          {/* Garment Division */}
-          <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
-            <div className="card p-4 h-100">
-              <i className="fas fa-tshirt fa-3x text-success mb-3"></i>
-              <h5 className="fw-bold mb-2">Garment Division</h5>
-              <p className="text-muted">
-                Modern garment production with attention to detail, offering a
-                wide range of stylish and comfortable apparel for global
-                markets.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+  {/* Text overlay */}
+  <div
+    className="position-absolute top-50 start-50 translate-middle text-center text-white"
+    style={{ width: "80%" }}
+  >
+    <h1 className="fw-bold text-uppercase mb-3">Our Divisions</h1>
+    <p className="fs-5">
+      From premium yarns to finished garments — each division of Shaddan Textile
+      reflects precision, innovation, and craftsmanship.
+    </p>
+  </div>
+</div>
 
       {/* Production Process Section */}
       <div className="container-fluid p-5 production-section py-5">
