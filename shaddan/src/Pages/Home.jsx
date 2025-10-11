@@ -41,7 +41,7 @@ export default function Home() {
         
         </div>
       <div className="d-flex justify-content-center">
-  <button type="button" className="btn btn-outline-success">READ MORE</button>
+
 </div>
 
       </div>
@@ -62,10 +62,9 @@ export default function Home() {
     className="position-absolute top-50 start-50 translate-middle text-center text-white"
     style={{ width: "80%" }}
   >
-    <h1 className="fw-bold text-uppercase mb-3">Our Divisions</h1>
+    <h1 className="fw-bold text-uppercase mb-3">Trying to serve you best since 1972</h1>
     <p className="fs-5">
-      From premium yarns to finished garments — each division of Shaddan Textile
-      reflects precision, innovation, and craftsmanship.
+     Shaddan Textile places highest emphasis on manufacturing of its products with consistent quality and producing right the first time, on time and every time, to ensure customer satisfaction in all respects.
     </p>
   </div>
 </div>
