@@ -38,36 +38,37 @@ export default function Home() {
             right the first time, on time and every time, to ensure customer
             satisfaction in all respects.
           </p>
-        
         </div>
-      <div className="d-flex justify-content-center">
-
-</div>
-
+        <div className="d-flex justify-content-center"></div>
       </div>
-  <div className="container-fluid position-relative p-0">
-  <img
-    src={Images.banner2}
-    alt="Division Banner"
-    className="img-fluid w-100"
-    style={{
-      height: "75vh",         // Adjust height for landscape look
-      objectFit: "cover",     // Keeps image proportionally scaled
-      filter: "brightness(70%)" // Slight dark effect for readable text
-    }}
-  />
+      <div className="container-fluid position-relative p-0">
+        <img
+          src={Images.banner2}
+          alt="Division Banner"
+          className="img-fluid w-100"
+          style={{
+            height: "75vh", // Adjust height for landscape look
+            objectFit: "cover", // Keeps image proportionally scaled
+            filter: "brightness(70%)", // Slight dark effect for readable text
+          }}
+        />
 
-  {/* Text overlay */}
-  <div
-    className="position-absolute top-50 start-50 translate-middle text-center text-white"
-    style={{ width: "80%" }}
-  >
-    <h1 className="fw-bold text-uppercase mb-3">Trying to serve you best since 1972</h1>
-    <p className="fs-5">
-     Shaddan Textile places highest emphasis on manufacturing of its products with consistent quality and producing right the first time, on time and every time, to ensure customer satisfaction in all respects.
-    </p>
-  </div>
-</div>
+        {/* Text overlay */}
+        <div
+          className="position-absolute top-50 start-50 translate-middle text-center text-white"
+          style={{ width: "80%" }}
+        >
+          <h1 className="fw-bold text-uppercase mb-3">
+            Trying to serve you best since 1972
+          </h1>
+          <p className="fs-5">
+            Shaddan Textile places highest emphasis on manufacturing of its
+            products with consistent quality and producing right the first time,
+            on time and every time, to ensure customer satisfaction in all
+            respects.
+          </p>
+        </div>
+      </div>
 
       {/* Production Process Section */}
       <div className="container-fluid p-5 production-section py-5">
