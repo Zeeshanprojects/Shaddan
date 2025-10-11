@@ -11,6 +11,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
+;
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
@@ -23,8 +24,8 @@
   letter-spacing: 1px;
 }
 .bg-color {
-  background-color: black !important;
-  color: white !important;
+  background-color: #F7F7F7 !important;
+  color: black !important;
 }
 .overlay-text p {
   font-size: 1.5rem;
@@ -65,8 +66,7 @@
 }
 
 .production-section {
-  background-color: black;
-  color: white !important;
+  background-color: #F7F7F7;
   padding: 60px 20px;
 }
 .process-card {
@@ -101,11 +101,8 @@
   border-radius: 15px;
 }
 
-.choose-card {
-  background: #fff;
-  border-radius: 20px;
-  /* border: 1px solid black !important; */
-  transition: all 0.3s ease-in-out;
+.card {
+border: 1px solid black;
 }
 
 .choose-card i {

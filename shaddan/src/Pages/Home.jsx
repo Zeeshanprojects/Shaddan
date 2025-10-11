@@ -24,7 +24,7 @@ export default function Home() {
             Our Product lines are Knitted Garments /Knitted Fitted Sheet /Terry
             Towel & Bathrobes / Textile Made-up
           </h5>
-          <p className="">
+          <p className=" w-100 ps-5 pe-5">
             We, at Shaddan Textiles (Pvt) Limited, firmly believe that each of
             our product should give value for your money. The design and
             manufacturing is done to fulfill your present and future needs. We
@@ -38,7 +38,12 @@ export default function Home() {
             right the first time, on time and every time, to ensure customer
             satisfaction in all respects.
           </p>
+        
         </div>
+      <div className="d-flex justify-content-center">
+  <button type="button" className="btn btn-outline-success">READ MORE</button>
+</div>
+
       </div>
       <div className="container divisions-section my-5 py-5">
         <div className="text-center mb-5">
@@ -105,9 +110,7 @@ export default function Home() {
       {/* Production Process Section */}
       <div className="container-fluid p-5 production-section py-5">
         <div className="text-center mb-5">
-          <h1 className="fw-bold  text-uppercase">
-            Our Production Process
-          </h1>
+          <h1 className="fw-bold  text-uppercase">Our Production Process</h1>
           <p>
             From yarn to finished goods — precision, quality, and craftsmanship
             in every step.
