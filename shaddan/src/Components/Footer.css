@@ -1,0 +1,4 @@
+footer{
+    height: 100px !important;display: flex;justify-content: center;align-items: center;
+    font-size: larger;
+}

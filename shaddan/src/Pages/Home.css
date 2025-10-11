@@ -23,35 +23,52 @@
   letter-spacing: 1px;
 }
 .bg-color {
-  background-color: #f2f3f4 !important;
+  background-color: black !important;
+  color: white !important;
 }
 .overlay-text p {
   font-size: 1.5rem;
   font-weight: 500;
 }
-
-.about-section h2 {
-  font-size: 2rem;
-  letter-spacing: 1px;
+.image-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top right,
+    rgba(0, 128, 0, 0.2),
+    rgba(255, 255, 255, 0)
+  );
+  border-radius: 25px;
+}
+.divisions-section {
+  border-radius: 15px;
 }
 
-.about-section p {
-  line-height: 1.7;
-  text-align: justify !important;
-  hyphens: auto;
-  font-size: 1.05rem;
+.division-card {
+  border-radius: 20px;
+
+  transition: all 0.3s ease-in-out;
+  height: 100%;
 }
 
-.about-image {
-  box-shadow: 0px 12px 35px rgba(0, 0, 0, 0.2);
-
-  object-fit: cover;
-  border-radius: 20px !important;
+.division-card i {
+  transition: transform 0.3s ease;
 }
+
+.division-card:hover i {
+  transform: scale(1.1);
+}
+
+.divisions-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
 .production-section {
-  background-color: #f9fdf9;
+  background-color: black;
+  color: white !important;
+  padding: 60px 20px;
 }
-
 .process-card {
   background: #fff;
   border-radius: 15px;
@@ -71,16 +88,35 @@
   transition: transform 0.3s ease-in-out;
 }
 
-.process-card:hover .process-icon {
-  transform: scale(1.2);
-}
-
 .production-section h1 {
   font-size: 2.2rem;
   letter-spacing: 1px;
 }
 
 .production-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.why-choose-section {
+  border-radius: 15px;
+}
+
+.choose-card {
+  background: #fff;
+  border-radius: 20px;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.choose-card i {
+  transition: transform 0.3s ease;
+}
+
+.choose-card:hover i {
+  transform: scale(1.1);
+}
+
+.why-choose-section p {
   font-size: 1rem;
   line-height: 1.6;
 }
