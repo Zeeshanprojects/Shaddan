@@ -7,10 +7,10 @@ export default function Header() {
       <div className="top-bar bg py-3">
         <div className="container d-flex justify-content-between align-items-center">
          
-          <p className="text-white mb-0">
+          <h6 className="text-white mb-0">
             Welcome to Shaddan Textile Industries
-          </p>
-          <p className="text-white mb-0">info@shaddantextile.com</p>
+          </h6>
+          <h6 className="text-white mb-0">info@shaddantextile.com</h6>
         </div>
       </div>
 
@@ -120,8 +120,7 @@ export default function Header() {
               </li>
             </ul>
             <form className="d-flex  ">
-              <button className="btn btn-success ps-5 pe-5 pt-3 pb-3" type="submit">
-             
+              <button className="btn btn-outline-success ps-5 pe-5 pt-3 pb-3" type="submit">
                 Contact
               </button>
             </form>
