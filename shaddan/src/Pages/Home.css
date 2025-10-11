@@ -103,10 +103,10 @@
 .why-choose-section {
   border-radius: 15px;
 }
-.card {
+/* .card {
 border: 1px solid black;
 
-}
+} */
 
 .choose-card i {
   transition: transform 0.3s ease;

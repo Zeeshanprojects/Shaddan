@@ -16,7 +16,7 @@ export default function Home() {
         </div>
       </div>
       <div className="container-fluid p-5 bg-color">
-        <div className="row text-center my-5">
+        <div className="row text-center my-3">
           <h1 className="fw-bold text-uppercase">
             Shaddan Textiles Industries
           </h1>
@@ -71,8 +71,8 @@ export default function Home() {
       </div>
 
       {/* Production Process Section */}
-      <div className="container-fluid p-5 production-section py-5">
-        <div className="text-center mb-5">
+      <div className="container-fluid p-5 production-section  my-5 py-5">
+        <div className="text-center ">
           <h1 className="fw-bold  text-uppercase">Our Production Process</h1>
           <p>
             From yarn to finished goods — precision, quality, and craftsmanship
@@ -116,7 +116,7 @@ export default function Home() {
             <div key={i} className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="process-card p-4 text-center">
                 <div className="process-icon mb-3">{step.icon}</div>
-                <h4 className="fw-bold text-success mb-2">{step.title}</h4>
+                <h4 className="fw-bold  mb-2">{step.title}</h4>
                 <p className="text-muted">{step.desc}</p>
               </div>
             </div>
@@ -124,7 +124,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container why-choose-section my-5 py-5">
+      <div className="container why-choose-section my-3 py-3">
         <div className="text-center mb-5">
           <h1 className="fw-bold text-uppercase">Why Choose Us</h1>
           <p className="text-muted w-75 mx-auto">
