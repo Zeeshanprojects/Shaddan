@@ -4,10 +4,11 @@ import Images from "../assets/Images/Image";
 export default function Header() {
   return (
     <>
-      <div className="top-bar bg-dark py-2">
+      <div className="top-bar bg py-3">
         <div className="container d-flex justify-content-between align-items-center">
+         
           <p className="text-white mb-0">
-            Welcome to Mianoor Textile Industries
+            Welcome to Shaddan Textile Industries
           </p>
           <p className="text-white mb-0">info@shaddantextile.com</p>
         </div>
@@ -52,7 +53,7 @@ export default function Header() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  QuUALITY POLICY
+                  QUALITY POLICY
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
@@ -118,8 +119,9 @@ export default function Header() {
                 </a>
               </li>
             </ul>
-            <form className="d-flex">
-              <button className="btn btn-success" type="submit">
+            <form className="d-flex  ">
+              <button className="btn btn-success ps-5 pe-5 pt-3 pb-3" type="submit">
+             
                 Contact
               </button>
             </form>
