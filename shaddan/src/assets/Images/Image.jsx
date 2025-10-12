@@ -4,7 +4,7 @@ const Images={
 banner2:new URL("./shaddan-banner2.png",import.meta.url).href,
 towels:new URL("./Towel.webp",import.meta.url).href,
 garments:new URL("./Garments.webp",import.meta.url).href,    
-shreetss:new URL("./sheets.webp",import.meta.url).href,
+sheets:new URL("./sheets.webp",import.meta.url).href,
 Bathrobes:new URL("./Bathrobes.webp",import.meta.url).href,
 
 }

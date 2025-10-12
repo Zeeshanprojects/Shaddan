@@ -15,21 +15,63 @@ export default function Home() {
           <p>We Provide Quality Products</p>
         </div>
       </div>
-      <div className="container-fluid p-5 bg-color">
-        <div className="row text-center my-3">
-          <h1 className="fw-bold text-uppercase">
-            Shaddan Textiles Industries
-          </h1>
-          <h5>
-            Our Product lines are Knitted Garments /Knitted Fitted Sheet /Terry
-            Towel & Bathrobes / Textile Made-up
-          </h5>
-          <p className=" w-100 ps-5 pe-5">
-         .
-          </p>
-        </div>
-        <div className="d-flex justify-content-center"></div>
+    <div className="container-fluid py-5 bg-light text-center">
+  <div className="row mb-5">
+    <h1 className="fw-bold text-uppercase text-success mb-3">
+      Shaddan Textiles Industries
+    </h1>
+    <h5 className="text-muted">
+      Our Product Lines Include Knitted Garments, Fitted Sheets, Terry Towels, Bathrobes & Textile Made-ups.
+    </h5>
+  </div>
+
+  <div className="row justify-content-center">
+    {/* Towels */}
+    <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
+      <div className="card border-0 shadow-sm h-100 ">
+        <img src={Images.towels} alt="Towels" className="img-fluid rounded mb-3" />
+        <h4 className="fw-semibold text-success">Towels</h4>
+        <p className="text-muted small">
+          Luxuriously soft and absorbent terry towels crafted for ultimate comfort and durability.
+        </p>
       </div>
+    </div>
+
+    {/* Garments */}
+    <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
+      <div className="card border-0 shadow-sm h-100 ">
+        <img src={Images.garments} alt="Garments" className="img-fluid rounded mb-3" />
+        <h4 className="fw-semibold text-success">Garments</h4>
+        <p className="text-muted small">
+          High-quality knitted garments designed for comfort, flexibility, and modern fashion appeal.
+        </p>
+      </div>
+    </div>
+
+    {/* Sheets */}
+    <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
+      <div className="card border-0 shadow-sm h-100 ">
+        <img src={Images.sheets} alt="Sheets" className="img-fluid rounded mb-3" />
+        <h4 className="fw-semibold text-success">Fitted Sheets</h4>
+        <p className="text-muted small">
+          Smooth and breathable knitted fitted sheets ensuring a perfect fit and restful sleep.
+        </p>
+      </div>
+    </div>
+
+    {/* Bathrobes */}
+    <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
+      <div className="card border-0 shadow-sm h-100 ">
+        <img src={Images.Bathrobes} alt="Bathrobes" className="img-fluid rounded mb-3" />
+        <h4 className="fw-semibold text-success">Bathrobes</h4>
+        <p className="text-muted small">
+          Elegant and cozy bathrobes made from premium fabrics to enhance your comfort and style.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
       <div className="container-fluid position-relative p-0">
         <img
           src={Images.banner2}
