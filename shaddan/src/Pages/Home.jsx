@@ -71,37 +71,52 @@ export default function Home() {
     </div>
   </div>
 </div>
+<div
+  className="container-fluid position-relative p-0"
+  style={{
+    height: "75vh",
+    backgroundImage: `url(${Images.banner2})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundAttachment: "fixed",
+  }}
+>
+  {/* Dark overlay only on background */}
+  <div
+    style={{
+      position: "absolute",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%",
+      backgroundColor: "rgba(0, 0, 0, 0.5)", // dark overlay (instead of filter)
+      zIndex: 1,
+    }}
+  ></div>
 
-      <div className="container-fluid position-relative p-0">
-        <img
-          src={Images.banner2}
-          alt="Division Banner"
-          className="img-fluid w-100"
-          style={{
-            height: "75vh", // Adjust height for landscape look
-            objectFit: "cover", // Keeps image proportionally scaled
-            filter: "brightness(50%)", // Slight dark effect for readable text
-          }}
-        />
+  {/* Text content */}
+  <div
+    className="position-absolute top-50 start-50 translate-middle text-center text-white"
+    style={{ width: "80%", zIndex: 2 }}
+  >
+    <h1 className="fw-bold text-uppercase mb-3">
+      Trying to serve you best since 1966
+    </h1>
+    <p>
+      We are a large sized textile unit located in the most modern and prime
+      industrial city Karachi (PAKISTAN). We have a complete setup. Our machines
+      are well equipped. Our stitching department comprises of numerous kinds of
+      machines to produce high quality of home textiles of knitted / woven,
+      Knitted Garments, & Terry towels.
+    </p>
+  </div>
+</div>
 
-        {/* Text overlay */}
-        <div
-          className="position-absolute top-50 start-50 translate-middle text-center text-white"
-          style={{ width: "80%" }}
-        >
-          <h1 className="fw-bold text-uppercase mb-3">
-            Trying to serve you best since 1966
-          </h1>
-          <p className="fs-5">
-              Venturing into the field of Home Textile, Shaddan Enterprises was established in 1996 as a progressive unit concentrating on the production and export of home textile products such as knitted / woven bedlinen, fitted sheets, towels, bath robes, slippers & Knitted Garments etc. Thriving and delivering in accordance with international standards has led to greater expansion of Shaddan Enterprises to the multi dimensional incarnation it is today. Shaddan Enterprises is now considered as a complete solution provider when it comes to home textiles. Shaddan Enterprises is a prominent manufacturer, exporter, supplier of renowned client of textiles to wholesalers and retailers worldwide. Shaddan Enterprises completely understands the niche of each and every client which has further led our Company to overcome quite a few barriers and deliver total customer satisfaction. Our people are always involved in bringing excellent customer service keeping the core trust in view which was once a consideration. Shaddan's superb quality products are produced with the most excellent raw products available in the market. Not a single phase of production is left unattended at Shaddan guaranteeing purity in business
-          </p>
-        </div>
-      </div>
 
       {/* Production Process Section */}
       <div className="container-fluid p-5 production-section   py-5">
         <div className="text-center ">
-          <h1 className="fw-bold  text-uppercase">Our Production Process</h1>
+          <h1 className="fw-bold text-success text-uppercase">Our Production Process</h1>
           <p>
             From yarn to finished goods — precision, quality, and craftsmanship
             in every step.
@@ -154,7 +169,7 @@ export default function Home() {
 {/* Location Section */}
 <div className="container-fluid map-section section-spacing bg-color">
   <div className="text-center mb-4">
-    <h1 className="fw-bold text-uppercase">Find Us on Map</h1>
+    <h1 className="fw-bold text-success text-uppercase">Find Us on Map</h1>
     <p className="text-muted">
       Visit our manufacturing facility and experience quality at its finest.
     </p>
