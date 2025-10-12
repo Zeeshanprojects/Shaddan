@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css";
 import Images from "../assets/Images/Image";
+import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <>
@@ -34,14 +35,14 @@ export default function Header() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link className="nav-link active" aria-current="page" to="/">
                   HOME
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link className="nav-link active" aria-current="page" to="/about">
                   ABOUT
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item dropdown ">

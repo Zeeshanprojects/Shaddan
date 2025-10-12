@@ -166,32 +166,7 @@ export default function Home() {
           ))}
         </div>
       </div>
-{/* Location Section */}
-<div className="container-fluid map-section section-spacing bg-color">
-  <div className="text-center mb-4">
-    <h1 className="fw-bold text-success text-uppercase">Find Us on Map</h1>
-    <p className="text-muted">
-      Visit our manufacturing facility and experience quality at its finest.
-    </p>
-  </div>
 
-  <div className="row justify-content-center">
-    <div className="col-12 ">
-      <div className="map-container">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.7984364615736!2d67.0208121!3d24.904856099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f1da139e45b%3A0x3f04ae9c5fb6dcc9!2sSHADDAN%20ENTERPRISES!5e0!3m2!1sen!2s!4v1760183346267!5m2!1sen!2s"
-          width="100%"
-          height="450"
-          style={{ border: "0" }}
-          allowFullScreen=""
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          title="Shaddan Enterprises Location"
-        ></iframe>
-      </div>
-    </div>
-  </div>
-</div>
 
     </>
   );
