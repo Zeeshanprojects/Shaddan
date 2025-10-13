@@ -55,39 +55,15 @@ export default function Header() {
                   QUALITY POLICY
                 </Link>
               </li>
-
-              <li className="nav-item dropdown ">
-                <a
-                  className="nav-link dropdown-toggle active"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  FACTORY TOUR
-                </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
+ <li className="nav-item">
+                <Link
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/factorytour"
+                >FACTORY TOUR
+                </Link>
               </li>
+              
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
                   PROJECTS
@@ -100,9 +76,11 @@ export default function Header() {
               </li>
             </ul>
             <form className="d-flex  ">
-              <button className="btn btn-success ps-5 pe-5" type="submit">
+              <Link to="/contact">
+               <button className="btn btn-success ps-5 pe-5" type="submit">
                 Contact
-              </button>
+              </button></Link>
+             
             </form>
           </div>
         </div>

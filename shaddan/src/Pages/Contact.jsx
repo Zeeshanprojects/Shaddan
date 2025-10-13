@@ -1,7 +1,88 @@
-import React from 'react'
+import React from "react";
 
 export default function Contact() {
   return (
-    <div>Contact</div>
-  )
+    <>
+      <div className="container-fluid py-5 bg-light">
+        <div className="row text-center mb-5">
+          <h2 className="fw-bold text-success text-uppercase">Contact Us</h2>
+          <p className="text-muted">
+            Feel free to contact us for more information about us as well as our
+            products. We’ll be happy to assist you!
+          </p>
+        </div>
+
+        <div className="container">
+          <div className="row gy-5">
+            {/* Left Side - Contact Info */}
+            <div className="col-12 col-md-6">
+              <h4 className="fw-bold mb-3 text-success">
+                Shaddan Enterprises
+              </h4>
+              <p>
+                <strong>Address:</strong> D-14, S.I.T.E. Karachi - Pakistan
+              </p>
+              <p>
+                <strong>Phone:</strong> +92 21 256 5252 / +92 21 256 6701-02
+              </p>
+              <p>
+                <strong>Fax:</strong> +92 21 256 6703
+              </p>
+              <p>
+                <strong>Cell:</strong> +92 333 228 6556
+              </p>
+              <p>
+                <strong>Email:</strong>{" "}
+                <a href="mailto:muhammadashraf@shaddanent.com" className="text-decoration-none text-dark">
+                  muhammadashraf@shaddanent.com
+                </a>
+                ,{" "}
+                <a href="mailto:saleemsattar@shaddanent.com" className="text-decoration-none text-dark">
+                  saleemsattar@shaddanent.com
+                </a>
+              </p>
+              <p>
+                <strong>Website:</strong>{" "}
+                <a
+                  href="https://www.shaddanent.com"
+                  className="text-decoration-none text-dark"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  www.shaddanent.com
+                </a>
+              </p>
+              <div className="mt-4">
+                <h5 className="fw-bold text-success">C.E.O</h5>
+                <p className="mb-0">Saleem. A. Sattar</p>
+              </div>
+            </div>
+
+            {/* Right Side - Google Map */}
+            <div className="col-12 col-md-6">
+              <div className="ratio ratio-4x3 shadow-sm rounded-3 overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.7984364615736!2d67.0208121!3d24.904856099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f1da139e45b%3A0x3f04ae9c5fb6dcc9!2sSHADDAN%20ENTERPRISES!5e0!3m2!1sen!2s!4v1760341216370!5m2!1sen!2s"
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Shaddan Enterprises Location"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+
+          {/* Optional Contact Message Section */}
+          <div className="row mt-5">
+            <div className="col-12 text-center">
+              <h4 className="fw-bold text-success">We’d love to hear from you!</h4>
+              <p className="text-muted">
+                Contact us for product specs, pricing, delivery or samples for your evaluation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }

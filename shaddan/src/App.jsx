@@ -5,6 +5,8 @@ import Footer from "./Components/Footer";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Qualitypolicy from "./Pages/Qualitypolicy";
+import Contact from "./Pages/Contact";
+import FactoryTour from "./Pages/Fatorytour";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/qualitypolicy" element={<Qualitypolicy/>}/>
+          <Route path="/factorytour" element={<FactoryTour/>}/>
+          <Route path="/contact" element={<Contact/>}/>
         </Routes>
         <Footer/>
       </Router>
