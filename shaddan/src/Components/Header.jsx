@@ -10,7 +10,6 @@ export default function Header() {
           <h5 className="text-white text-center mb-0">
             Welcome to Shaddan Textile Industries
           </h5>
-        
         </div>
       </div>
 
@@ -55,28 +54,28 @@ export default function Header() {
                   QUALITY POLICY
                 </Link>
               </li>
- <li className="nav-item">
+              <li className="nav-item">
                 <Link
                   className="nav-link active"
                   aria-current="page"
                   to="/factorytour"
-                >FACTORY TOUR
+                >
+                  FACTORY TOUR
                 </Link>
               </li>
-              
+
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/csr">
-                 CSR
+                  CSR
                 </Link>
               </li>
-             
             </ul>
             <form className="d-flex  ">
               <Link to="/contact">
-               <button className="btn btn-success ps-5 pe-5" type="submit">
-                Contact
-              </button></Link>
-             
+                <button className="btn btn-success ps-5 pe-5" type="submit">
+                  Contact
+                </button>
+              </Link>
             </form>
           </div>
         </div>

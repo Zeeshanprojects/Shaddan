@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <>
-      <div className="container-fluid p-0 position-relative">
+      <div className="container-fluid p-0 position-relative ">
         <img
           src={Images.banner}
           alt="Shaddan Textile Banner"

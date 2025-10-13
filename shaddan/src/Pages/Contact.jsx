@@ -34,7 +34,7 @@ export default function Contact() {
               <p>
                 <strong>Email:</strong>{" "}
                 <a href="mailto:muhammadashraf@shaddanent.com" className="text-decoration-none text-dark">
-                  dawood@shaddanenterprise.com
+                  daud@shaddanapprael.com
                 </a>
                 ,{" "}
                
@@ -52,7 +52,7 @@ export default function Contact() {
               </p>
               <div className="mt-4">
                 <h5 className="fw-bold text-success">C.A.O</h5>
-                <p className="mb-0">Dawid Jumani</p>
+                <p className="mb-0">Daud Jumani</p>
               </div>
             </div>
 
