@@ -18,12 +18,12 @@ export default function Home() {
       </div>
     <div className="container-fluid py-5 bg-light text-center">
   <div className="row mb-5">
-    <h1 className="fw-bold text-uppercase text-success mb-3">
+    <h1 className="fw-bold text-uppercase text-success mb-2">
       Shaddan Textiles Industries
     </h1>
-    <h5 className="text-muted">
+    <p className="text-muted">
       Our Product Lines Include Knitted Garments, Fitted Sheets, Terry Towels, Bathrobes & Textile Made-ups.
-    </h5>
+    </p>
   </div>
 
   <div className="row justify-content-center">

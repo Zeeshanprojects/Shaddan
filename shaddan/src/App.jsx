@@ -8,11 +8,13 @@ import Qualitypolicy from "./Pages/Qualitypolicy";
 import Contact from "./Pages/Contact";
 import FactoryTour from "./Pages/Fatorytour";
 import CSR from "./Pages/CSR";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
     <>
       <Router>
+         <ScrollToTop/>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
