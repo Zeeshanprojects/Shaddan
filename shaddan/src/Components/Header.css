@@ -55,12 +55,14 @@
     z-index: 2000;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
+    padding-bottom: 20px !important;
   }
 
   .navbar-nav .nav-link {
     color: black !important;
     text-align: center;
-    padding: 10px 0;
+    padding:8px;
+    ;
   }
 
  
