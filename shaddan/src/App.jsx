@@ -14,17 +14,17 @@ function App() {
   return (
     <>
       <Router>
-         <ScrollToTop/>
+        <ScrollToTop />
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/qualitypolicy" element={<Qualitypolicy/>}/>
-          <Route path="/factorytour" element={<FactoryTour/>}/>
-          <Route path="/contact" element={<Contact/>}/>
-          <Route path="/csr" element={<CSR/>}/>
+          <Route path="/qualitypolicy" element={<Qualitypolicy />} />
+          <Route path="/factorytour" element={<FactoryTour />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/csr" element={<CSR />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </Router>
     </>
   );
