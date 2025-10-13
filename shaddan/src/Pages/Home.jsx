@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./home.css";
 import Images from "../assets/Images/Image";
 import { Link } from "react-router-dom";
 export default function Home() {
+ 
   return (
     <>
       <div className="container-fluid p-0 position-relative ">
