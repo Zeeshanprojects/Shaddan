@@ -4,14 +4,14 @@
   object-fit: cover;
   filter: brightness(0.7);
   display: block;
+  position: relative;
+  z-index: 1;
 }
 
-/* Center the overlay perfectly */
 .overlay-text {
   position: absolute;
   top: 50%;
   left: 50%;
-;
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
@@ -19,56 +19,26 @@
 }
 
 .overlay-text h1 {
-  font-size: 3.5rem; /* Large and bold */
+  font-size: 3.5rem;
   font-weight: 500;
   letter-spacing: 1px;
 }
-.bg-color {
-  background-color: #F7F7F7 !important;
-  color: black !important;
-}
+
 .overlay-text p {
   font-size: 1.5rem;
   font-weight: 500;
 }
-.image-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to top right,
-    rgba(0, 128, 0, 0.2),
-    rgba(255, 255, 255, 0)
-  );
-  border-radius: 25px;
-}
-.divisions-section {
+
+/* Product cards */
+.card {
   border-radius: 15px;
-}
-
-.division-card {
-  border-radius: 20px;
-
   transition: all 0.3s ease-in-out;
-  height: 100%;
+}
+.card:hover {
+  transform: translateY(-5px);
 }
 
-.division-card i {
-  transition: transform 0.3s ease;
-}
-
-.division-card:hover i {
-  transform: scale(1.1);
-}
-
-.divisions-section p {
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
-.production-section {
-  background-color: #F7F7F7;
-  padding: 60px 20px;
-}
+/* Process section */
 .process-card {
   background: #fff;
   border-radius: 15px;
@@ -77,47 +47,23 @@
   height: 100%;
 }
 
-
-.text-white h1, .text-white p {
-  text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
-}
-
 .process-icon {
   font-size: 3rem;
   color: #157347;
   transition: transform 0.3s ease-in-out;
 }
 
-.production-section h1 {
-  font-size: 2.2rem;
-  letter-spacing: 1px;
+.process-card:hover .process-icon {
+  transform: scale(1.1);
 }
 
-.production-section p {
-  font-size: 1rem;
-  line-height: 1.6;
-}
-.why-choose-section {
-  border-radius: 15px;
-}
-/* Map Section */
-.map-section {
-  background-color: #ffffff;
-}
+@media (max-width:768px) {
+  .navbar-brand {
+    height: 100px !important;
 
-.map-container {
-  border-radius: 20px;
-  overflow: hidden;
-  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
-}
-
-.map-section h1 {
-
-  letter-spacing: 1px;
-}
-
-
-@media (max-width: 768px) {
+    margin: 0px;
+    padding: 0px;
+  }
   .overlay-text h1 {
     font-size: 2.2rem;
   }

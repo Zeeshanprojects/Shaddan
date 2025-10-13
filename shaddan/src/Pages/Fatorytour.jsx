@@ -63,7 +63,7 @@ export default function FactoryTour() {
           /* Image Grid */
           <div className="row g-4 fade-in">
             {FactoryImages.map((image, index) => (
-              <div className="col-6 col-md-4" key={index}>
+              <div className="col-sm-12 col-md-6 col-lg-4" key={index}>
                 <div className="factory-image-wrapper shadow-sm rounded-3 overflow-hidden">
                   <img
                     src={image}
