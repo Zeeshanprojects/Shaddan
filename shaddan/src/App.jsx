@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./Components/Header";
@@ -9,23 +10,35 @@ import Contact from "./Pages/Contact";
 import FactoryTour from "./Pages/Fatorytour";
 import CSR from "./Pages/CSR";
 import ScrollToTop from "./Components/ScrollToTop";
+import Preloader from "./Components/Preloader";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <>
-      <Router>
-        <ScrollToTop />
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/qualitypolicy" element={<Qualitypolicy />} />
-          <Route path="/factorytour" element={<FactoryTour />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/csr" element={<CSR />} />
-        </Routes>
-        <Footer />
-      </Router>
+      {loading ? (
+        <Preloader />
+      ) : (
+        <Router>
+          <ScrollToTop />
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/qualitypolicy" element={<Qualitypolicy />} />
+            <Route path="/factorytour" element={<FactoryTour />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/csr" element={<CSR />} />
+          </Routes>
+          <Footer />
+        </Router>
+      )}
     </>
   );
 }
