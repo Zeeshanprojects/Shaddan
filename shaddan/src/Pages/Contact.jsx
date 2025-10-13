@@ -30,7 +30,7 @@ export default function Contact() {
                 <a href="mailto:muhammadashraf@shaddanent.com" className="text-decoration-none text-dark">
                   daud@shaddanapprael.com
                 </a>
-                ,{" "}
+                {" "}
                
               </p>
               <p>
