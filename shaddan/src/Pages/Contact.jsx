@@ -1,5 +1,6 @@
 import React from "react";
-
+import './contact.css'
+import Images from "../assets/Images/Image";
 export default function Contact() {
   return (
     <>
@@ -44,10 +45,20 @@ export default function Contact() {
                   www.shaddanent.com
                 </a>
               </p>
-              <div className="mt-4">
-                <h5 className="fw-bold text-success">C.A.O</h5>
-                <p className="mb-0">Daud Jumani</p>
-              </div>
+             <div className="cao-section mt-4">
+  <div className="d-flex align-items-center">
+    <img
+      src={Images.CAO}
+      alt="cao"
+      className="cao-img me-3"
+    />
+    <div>
+      <h5 className="fw-bold text-success mb-1">C.A.O</h5>
+      <p className="mb-0 text-dark">Daud Jumani</p>
+    </div>
+  </div>
+</div>
+
             </div>
 
             {/* Right Side - Google Map */}

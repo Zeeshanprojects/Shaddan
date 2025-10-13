@@ -1,0 +1,23 @@
+
+
+.cao-section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.cao-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #198754; /* green border */
+}
+
+.cao-section h5 {
+  font-size: 16px;
+}
+
+.cao-section p {
+  font-size: 15px;
+  color: #333;
+}

@@ -33,6 +33,6 @@ Factoryimage16:new URL("./F16.webp",import.meta.url).href,
 Factoryimage17:new URL("./F18.webp",import.meta.url).href,
 Factoryimage18:new URL("./F19.webp",import.meta.url).href,
 Factoryimage19:new URL("./F20.webp",import.meta.url).href,
-
+CAO:new URL ("./Davidjumani.webp",import.meta.url).href,
 }
 export default Images;
