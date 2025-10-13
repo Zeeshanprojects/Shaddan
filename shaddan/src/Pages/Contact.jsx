@@ -29,7 +29,7 @@ export default function Contact() {
               <p>
                 <strong>Email:</strong>{" "}
                 <a href="mailto:muhammadashraf@shaddanent.com" className="text-decoration-none text-dark">
-                  daud@shaddanapprael.com
+                  daud@shaddanapparel.com
                 </a>
                 {" "}
                
