@@ -26,9 +26,6 @@ export default function Contact() {
                 <strong>Phone:</strong> +92 21 256 5252 / +92 21 256 6701-02
               </p>
               <p>
-                <strong>Fax:</strong> +92 21 256 6703
-              </p>
-              <p>
                 <strong>Cell:</strong> +92 333 228 6556
               </p>
               <p>

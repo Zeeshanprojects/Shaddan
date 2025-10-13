@@ -20,9 +20,9 @@ export default function Header() {
       {/* Top Bar */}
       <div className="top-bar bg py-3">
         <div className="container-fluid">
-          <h5 className="text-white text-center mb-0">
-            Welcome to Shaddan Textile Industries
-          </h5>
+          <h6 className="text-white text-center  text-uppercase mb-0">
+            Shaddan Textile Industries
+          </h6>
         </div>
       </div>
 
