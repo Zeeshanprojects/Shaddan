@@ -24,7 +24,7 @@ export default function Contact() {
                 <strong>Address:</strong> D-14, S.I.T.E. Karachi - Pakistan
               </p>
               <p>
-                <strong>Phone:</strong> +92 21 256 5252 / +92 21 256 6701-02
+                <strong>Phone:</strong> 0092-21-2565252
               </p>
               <p>
                 <strong>Email:</strong>{" "}
