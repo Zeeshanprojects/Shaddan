@@ -1,9 +1,9 @@
-import React from "react";
-import Images from "../assets/Images/Image"; // Assuming your images are imported here
+import React, { useState, useEffect } from "react";
+import Images from "../assets/Images/Image"; // your image imports
 
 export default function FactoryTour() {
-  // Example images array — replace with your actual image imports
-  const FactoryimageImages = [
+  const [imagesLoaded, setImagesLoaded] = useState(false);
+  const FactoryImages = [
     Images.Factoryimage1,
     Images.Factoryimage2,
     Images.Factoryimage3,
@@ -22,36 +22,60 @@ export default function FactoryTour() {
     Images.Factoryimage16,
     Images.Factoryimage17,
     Images.Factoryimage18,
-       Images.Factoryimage19,
-       
+    Images.Factoryimage19,
   ];
 
+  // ✅ Preload all images before showing them
+  useEffect(() => {
+    let loadedCount = 0;
+    FactoryImages.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+      img.onload = () => {
+        loadedCount++;
+        if (loadedCount === FactoryImages.length) {
+          setImagesLoaded(true);
+        }
+      };
+    });
+  }, [FactoryImages]);
+
   return (
-    <div className="Factoryimage-tour-section py-5">
+    <div className="factory-tour-section py-5">
       <div className="container">
         {/* Header */}
         <div className="text-center mb-5">
-          <h2 className="fw-bold text-success text-uppercase">Factoryimage Tour</h2>
+          <h2 className="fw-bold text-success text-uppercase">Factory Tour</h2>
           <p className="text-muted">
             Explore our state-of-the-art production facilities equipped with modern
             machinery, expert craftsmanship, and sustainable processes.
           </p>
         </div>
 
-        {/* Image Grid */}
-        <div className="row g-4">
-          {FactoryimageImages.map((image, index) => (
-            <div className="col-6 col-md-4" key={index}>
-              <div className="Factoryimage-image-wrapper shadow-sm rounded-3 overflow-hidden">
-                <img
-                  src={image}
-                  alt={`Factoryimage ${index + 1}`}
-                  className="img-fluid Factoryimage-image"
-                />
-              </div>
+        {/* Loader */}
+        {!imagesLoaded ? (
+          <div className="d-flex justify-content-center align-items-center" style={{ minHeight: "300px" }}>
+            <div className="spinner-border text-success" role="status" style={{ width: "4rem", height: "4rem" }}>
+              <span className="visually-hidden">Loading...</span>
             </div>
-          ))}
-        </div>
+          </div>
+        ) : (
+          /* Image Grid */
+          <div className="row g-4 fade-in">
+            {FactoryImages.map((image, index) => (
+              <div className="col-6 col-md-4" key={index}>
+                <div className="factory-image-wrapper shadow-sm rounded-3 overflow-hidden">
+                  <img
+                    src={image}
+                    alt={`Factory ${index + 1}`}
+                    className="img-fluid factory-image"
+                    loading="lazy" // ✅ lazy loading helps scrolling performance
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

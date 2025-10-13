@@ -5,16 +5,16 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <>
-      <div className="top-bar bg py-3">
-        <div className="container-fluid d-flex justify-content-between align-items-center">
-          <h6 className="text-white mb-0">
+      <div className="top-bar bg py-3 ">
+        <div className="container-fluid ">
+          <h5 className="text-white text-center mb-0">
             Welcome to Shaddan Textile Industries
-          </h6>
-          <h6 className="text-white mb-0">info@shaddantextile.com</h6>
+          </h5>
+        
         </div>
       </div>
 
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg navbar-light  ">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img src={Images.logo} alt="logo" height={200} width={200} />
@@ -65,15 +65,11 @@ export default function Header() {
               </li>
               
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  PROJECTS
-                </a>
+                <Link className="nav-link active" aria-current="page" to="/csr">
+                 CSR
+                </Link>
               </li>
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  ERP INITIATIVE
-                </a>
-              </li>
+             
             </ul>
             <form className="d-flex  ">
               <Link to="/contact">

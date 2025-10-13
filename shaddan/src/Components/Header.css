@@ -12,3 +12,7 @@
     margin: 10px !important;
 font-weight: bold;
 }
+.nav-item .nav-link:hover{
+  content: " ";
+  color:#198553;
+}

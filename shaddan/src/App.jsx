@@ -7,6 +7,7 @@ import About from "./Pages/About";
 import Qualitypolicy from "./Pages/Qualitypolicy";
 import Contact from "./Pages/Contact";
 import FactoryTour from "./Pages/Fatorytour";
+import CSR from "./Pages/CSR";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/qualitypolicy" element={<Qualitypolicy/>}/>
           <Route path="/factorytour" element={<FactoryTour/>}/>
           <Route path="/contact" element={<Contact/>}/>
+          <Route path="/csr" element={<CSR/>}/>
         </Routes>
         <Footer/>
       </Router>
