@@ -2,14 +2,14 @@ import React from 'react'
 
 export default function About() {
   return (
-     <div className="about-section py-5">
+    <div className="about-section py-5">
       <div className="container">
         {/* Header Section */}
-        <div className="text-center mb-5">
+        <div className="mb-3">
           <h1 className="fw-bold text-uppercase text-success mb-3">
             About Shaddan Textiles
           </h1>
-          <p className="text-muted">
+          <p className="text-muted fs-5">
             Excellence in Home Textile Manufacturing Since 1996
           </p>
         </div>
@@ -18,65 +18,46 @@ export default function About() {
         <div className="row align-items-center">
           <div className="col-lg-12">
             <p className="about-text">
-              Venturing into the field of Home Textile, <b>Shaddan Textiles</b> was
-              established in 1996 as a progressive unit concentrating on the
-              production and export of home textile products such as knitted /
-              woven bedlinen, fitted sheets, towels, bathrobes, slippers, and
-              knitted garments. 
+              Venturing into the field of <b>Home Textile</b>, <b>Shaddan Textiles</b> was established in 1996 as a progressive and quality-driven manufacturing unit focusing on the production and export of premium home textile products such as knitted and woven bed linens, fitted sheets, towels, bathrobes, slippers, and knitted garments. 
             </p>
 
             <p className="about-text">
-              Thriving and delivering in accordance with international standards has
-              led to the expansion of Shaddan Textiles into a multi-dimensional
-              organization. Today, we are recognized as a complete solution provider
-              for all kinds of home textiles — from fabric creation to finished
-              products.
+              Over the years, we have built a strong reputation for delivering exceptional textile products that combine <b>comfort, durability, and elegance</b>. Our company’s continuous growth and success stem from our dedication to innovation, craftsmanship, and a customer-centric approach that ensures satisfaction at every stage.
             </p>
 
             <p className="about-text">
-              Shaddan Textiles proudly serves as a trusted manufacturer,
-              exporter, and supplier to renowned clients, wholesalers, and retailers
-              worldwide. Our deep understanding of market demands enables us to
-              deliver tailored textile solutions while maintaining total customer
-              satisfaction and trust.
+              Thriving and delivering in accordance with international standards has enabled Shaddan Textiles to evolve into a multi-dimensional organization. Today, we stand as a <b>complete textile solution provider</b> — managing every aspect from fabric creation and dyeing to finishing and packaging. 
             </p>
 
             <p className="about-text">
-              Our dedicated team ensures that every stage of production meets the
-              highest standards of quality, using the finest raw materials and modern
-              machinery to produce superior knitted, woven, and terry products.
+              We cater to a wide clientele across the globe, including importers, wholesalers, and retail brands who trust our commitment to timely delivery, ethical production, and uncompromised quality. Our products are manufactured using modern machinery, skilled craftsmanship, and eco-friendly production processes that align with sustainable textile practices.
             </p>
-          </div>
-        </div>
 
-        {/* Mission and Vision */}
-        <div className="row mt-5 text-center">
-          <div className="col-md-6 mb-4">
-            <div className="mission-card p-4 shadow rounded-3 h-100 p-5">
-              <h3 className="fw-bold text-success mb-3">Our Mission</h3>
-              <p className="text-muted">
-                To create value and make a difference by focusing on the needs of
-                our customers and partners. We constantly explore global markets,
-                innovate in product development, and deliver quality textiles with
-                a vision of becoming your most reliable textile partner.
-              </p>
-            </div>
-          </div>
+            <p className="about-text">
+              Our highly skilled workforce and technical experts ensure that every product meets strict quality control standards. From yarn selection to final inspection, each step reflects our passion for excellence and our promise to deliver only the best.
+            </p>
 
-          <div className="col-md-6 mb-4">
-            <div className="vision-card p-4 shadow rounded-3 h-100 p-5">
-              <h3 className="fw-bold text-success mb-3">Our Vision</h3>
-              <p className="text-muted">
-                To be the leading textile manufacturer, partnering with our clients
-                for a more prosperous and sustainable future. Our vision drives us
-                to excel with integrity, innovation, and customer satisfaction at
-                the heart of everything we do.
-              </p>
-            </div>
+            <h3 className="fw-bold text-success mb-3">Our Mission</h3>
+            <p className="text-muted">
+              Our mission is to create value for our customers by providing innovative, high-quality textile solutions that enhance everyday living. We strive to combine <b>modern technology with traditional expertise</b> to produce textiles that meet the diverse needs of global markets.  
+              We are committed to continuous improvement, long-term partnerships, and ensuring that our products reflect <b>trust, quality, and reliability</b>.
+            </p>
+
+            <p className="text-muted">
+              By emphasizing sustainable sourcing, ethical labor practices, and eco-friendly production, we aim to contribute positively to the environment while maintaining our role as a responsible and forward-thinking textile manufacturer.
+            </p>
+
+            <h3 className="fw-bold text-success mb-3">Our Vision</h3>
+            <p className="text-muted">
+              To be a <b>global leader</b> in the textile industry, recognized for our innovation, integrity, and customer satisfaction. Our vision is to redefine textile excellence through continuous innovation, responsible production, and enduring partnerships.
+            </p>
+
+            <p className="text-muted">
+              We envision a future where Shaddan Textiles is not only known for its products but also for its <b>commitment to sustainability, craftsmanship, and community development</b>. By staying true to our values and embracing technological advancements, we continue to move forward — weaving tradition with innovation to create textiles that inspire trust and comfort worldwide.
+            </p>
           </div>
         </div>
       </div>
     </div>
   );
 }
-
