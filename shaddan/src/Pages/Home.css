@@ -56,7 +56,9 @@
 .process-card:hover .process-icon {
   transform: scale(1.1);
 }
-
+@media (min-width:1024px) and (max-width:1299px) {
+  
+}
 @media (max-width:768px) {
   .navbar-brand {
     height: 100px !important;
