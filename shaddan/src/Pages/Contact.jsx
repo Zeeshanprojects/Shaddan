@@ -34,12 +34,10 @@ export default function Contact() {
               <p>
                 <strong>Email:</strong>{" "}
                 <a href="mailto:muhammadashraf@shaddanent.com" className="text-decoration-none text-dark">
-                  muhammadashraf@shaddanent.com
+                  dawood@shaddanenterprise.com
                 </a>
                 ,{" "}
-                <a href="mailto:saleemsattar@shaddanent.com" className="text-decoration-none text-dark">
-                  saleemsattar@shaddanent.com
-                </a>
+               
               </p>
               <p>
                 <strong>Website:</strong>{" "}
@@ -53,8 +51,8 @@ export default function Contact() {
                 </a>
               </p>
               <div className="mt-4">
-                <h5 className="fw-bold text-success">C.E.O</h5>
-                <p className="mb-0">Saleem. A. Sattar</p>
+                <h5 className="fw-bold text-success">C.A.O</h5>
+                <p className="mb-0">Dawid Jumani</p>
               </div>
             </div>
 
