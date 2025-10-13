@@ -10,6 +10,9 @@ icon1:new URL("./icon1.png",import.meta.url).href,
 icon2:new URL("./icon2.png",import.meta.url).href,
 icon3:new URL("./icon3.png",import.meta.url).href,
 icon4:new URL("./icon4.png",import.meta.url).href,
-
+Quality:new URL("./Quality.webp",import.meta.url).href,
+Dyeing:new URL("./Dyeing finishing.webp",import.meta.url).href,
+Fabric:new URL("./fabric.webp",import.meta.url).href,
+Garments:new URL("./Garments devisions.webp",import.meta.url).href,
 }
 export default Images;

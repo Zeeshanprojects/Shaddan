@@ -7,7 +7,6 @@ export default function Header() {
     <>
       <div className="top-bar bg py-3">
         <div className="container-fluid d-flex justify-content-between align-items-center">
-         
           <h6 className="text-white mb-0">
             Welcome to Shaddan Textile Industries
           </h6>
@@ -18,8 +17,7 @@ export default function Header() {
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img src={Images.logo} alt="logo" height={200} width={200}/>
-          
+            <img src={Images.logo} alt="logo" height={200} width={200} />
           </a>
           <button
             className="navbar-toggler"
@@ -40,8 +38,21 @@ export default function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/about">
+                <Link
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/about"
+                >
                   ABOUT
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/qualitypolicy"
+                >
+                  QUALITY POLICY
                 </Link>
               </li>
 
@@ -54,7 +65,7 @@ export default function Header() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  QUALITY POLICY
+                  FACTORY TOUR
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
@@ -77,46 +88,14 @@ export default function Header() {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item dropdown ">
-                <a
-                  className="nav-link dropdown-toggle active"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-              FACTORY TOUR
-                </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
-              </li>
-                <li className="nav-item">
+              <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
                   PROJECTS
                 </a>
               </li>
-                <li className="nav-item">
+              <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
-                 ERP INITIATIVE
+                  ERP INITIATIVE
                 </a>
               </li>
             </ul>
