@@ -6,6 +6,10 @@ towels:new URL("./Towel.webp",import.meta.url).href,
 garments:new URL("./Garments.webp",import.meta.url).href,    
 sheets:new URL("./sheets.webp",import.meta.url).href,
 Bathrobes:new URL("./Bathrobes.webp",import.meta.url).href,
+icon1:new URL("./icon1.png",import.meta.url).href,
+icon2:new URL("./icon2.png",import.meta.url).href,
+icon3:new URL("./icon3.png",import.meta.url).href,
+icon4:new URL("./icon4.png",import.meta.url).href,
 
 }
 export default Images;

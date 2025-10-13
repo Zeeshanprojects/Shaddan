@@ -166,7 +166,57 @@ export default function Home() {
           ))}
         </div>
       </div>
+<div className="stats-section py-5 bg-light text-center">
+  <div className="container">
+    {/* Section Heading */}
+    <div className="mb-5">
+      <h2 className="fw-bold text-success text-uppercase">Our Achievements</h2>
+      <p className="text-muted">
+        Over the years, Shaddan Textiles has grown with dedication, innovation, and excellence — 
+        delivering quality products across the globe.
+      </p>
+    </div>
 
+    {/* Stats Row */}
+    <div className="row gy-4">
+      <div className="col-sm-6 col-md-6 col-lg-3">
+        <div className="p-4 bg-white shadow-sm rounded-4 h-100 hover-effect">
+          <img src={Images.icon1} alt="Yarn Exported" height={60} className="mb-3"/>
+          <h3 className="fw-bold text-success">40+</h3>
+          <h5 className="fw-semibold">Yarn Exported</h5>
+          <p className="text-muted small">Supplying premium yarns to global markets with consistency and quality.</p>
+        </div>
+      </div>
+
+      <div className="col-sm-6 col-md-6 col-lg-3">
+        <div className="p-4 bg-white shadow-sm rounded-4 h-100 hover-effect">
+          <img src={Images.icon2} alt="Fabrics Delivered" height={60} className="mb-3"/>
+          <h3 className="fw-bold text-success">60+</h3>
+          <h5 className="fw-semibold">Fabrics Delivered</h5>
+          <p className="text-muted small">Delivering woven and knitted fabrics meeting international standards.</p>
+        </div>
+      </div>
+
+      <div className="col-sm-6 col-md-6 col-lg-3">
+        <div className="p-4 bg-white shadow-sm rounded-4 h-100 hover-effect">
+          <img src={Images.icon3} alt="Global Clients" height={60} className="mb-3"/>
+          <h3 className="fw-bold text-success">100+</h3>
+          <h5 className="fw-semibold">Global Clients</h5>
+          <p className="text-muted small">Proudly serving trusted clients across multiple continents.</p>
+        </div>
+      </div>
+
+      <div className="col-sm-6 col-md-6 col-lg-3">
+        <div className="p-4 bg-white shadow-sm rounded-4 h-100 hover-effect">
+          <img src={Images.icon4} alt="Years of Experience" height={60} className="mb-3"/>
+          <h3 className="fw-bold text-success">25+</h3>
+          <h5 className="fw-semibold">Years of Experience</h5>
+          <p className="text-muted small">A legacy of excellence in textile manufacturing since 1996.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
     </>
   );

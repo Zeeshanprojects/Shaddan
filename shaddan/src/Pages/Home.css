@@ -135,6 +135,16 @@ border: 1px solid black;
 
   letter-spacing: 1px;
 }
+.hover-effect {
+  transition: all 0.3s ease;
+  border: 1px solid #eaeaea;
+}
+
+.hover-effect:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  border-color: #1f8e4b;
+}
 
 
 @media (max-width: 768px) {
