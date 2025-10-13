@@ -77,10 +77,7 @@
   height: 100%;
 }
 
-.process-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.12);
-}
+
 .text-white h1, .text-white p {
   text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
 }
@@ -103,23 +100,6 @@
 .why-choose-section {
   border-radius: 15px;
 }
-/* .card {
-border: 1px solid black;
-
-} */
-
-.choose-card i {
-  transition: transform 0.3s ease;
-}
-
-.choose-card:hover i {
-  transform: scale(1.1);
-}
-
-.why-choose-section p {
-  font-size: 1rem;
-  line-height: 1.6;
-}
 /* Map Section */
 .map-section {
   background-color: #ffffff;
@@ -134,16 +114,6 @@ border: 1px solid black;
 .map-section h1 {
 
   letter-spacing: 1px;
-}
-.hover-effect {
-  transition: all 0.3s ease;
-  border: 1px solid #eaeaea;
-}
-
-.hover-effect:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-  border-color: #1f8e4b;
 }
 
 

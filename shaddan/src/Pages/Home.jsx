@@ -114,7 +114,7 @@ export default function Home() {
 
 
       {/* Production Process Section */}
-      <div className="container-fluid p-5 production-section   py-5">
+      <div className="container-fluid p-5    py-5">
         <div className="text-center ">
           <h1 className="fw-bold text-success text-uppercase">Our Production Process</h1>
           <p>
@@ -166,8 +166,8 @@ export default function Home() {
           ))}
         </div>
       </div>
-<div className="stats-section py-5 bg-light text-center">
-  <div className="container">
+<div className="stats-section py-2 bg-light text-center">
+  <div className="container p-5">
     {/* Section Heading */}
     <div className="mb-5">
       <h2 className="fw-bold text-success text-uppercase">Our Achievements</h2>
@@ -191,8 +191,8 @@ export default function Home() {
       <div className="col-sm-6 col-md-6 col-lg-3">
         <div className="p-4 bg-white shadow-sm rounded-4 h-100 hover-effect">
           <img src={Images.icon2} alt="Fabrics Delivered" height={60} className="mb-3"/>
-          <h3 className="fw-bold text-success">60+</h3>
-          <h5 className="fw-semibold">Fabrics Delivered</h5>
+          <h3 className="fw-bold text-success">10+</h3>
+          <h5 className="fw-semibold">Exported Countries</h5>
           <p className="text-muted small">Delivering woven and knitted fabrics meeting international standards.</p>
         </div>
       </div>
@@ -209,7 +209,7 @@ export default function Home() {
       <div className="col-sm-6 col-md-6 col-lg-3">
         <div className="p-4 bg-white shadow-sm rounded-4 h-100 hover-effect">
           <img src={Images.icon4} alt="Years of Experience" height={60} className="mb-3"/>
-          <h3 className="fw-bold text-success">25+</h3>
+          <h3 className="fw-bold text-success">50+</h3>
           <h5 className="fw-semibold">Years of Experience</h5>
           <p className="text-muted small">A legacy of excellence in textile manufacturing since 1996.</p>
         </div>
