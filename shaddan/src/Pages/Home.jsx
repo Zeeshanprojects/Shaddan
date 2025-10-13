@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import Images from "../assets/Images/Image";
+import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <>
@@ -109,6 +110,9 @@ export default function Home() {
       machines to produce high quality of home textiles of knitted / woven,
       Knitted Garments, & Terry towels.
     </p>
+    <Link to="/about">
+     <button type="button" className="btn btn-outline-light ps-5 pe-5">About us</button></Link>
+   
   </div>
 </div>
 
