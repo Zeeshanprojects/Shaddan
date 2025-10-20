@@ -6,20 +6,20 @@ export default function FactoryTour() {
   const FactoryImages = [
     Images.Factoryimage1,
     Images.Factoryimage2,
-    Images.Factoryimage3,
-    Images.Factoryimage4,
+
+
     Images.Factoryimage5,
     Images.Factoryimage6,
     Images.Factoryimage7,
-    Images.Factoryimage8,
-    Images.Factoryimage9,
+
+  
     Images.Factoryimage10,
     Images.Factoryimage11,
     Images.Factoryimage12,
-    Images.Factoryimage13,
+
     Images.Factoryimage14,
     Images.Factoryimage15,
-    Images.Factoryimage16,
+
     Images.Factoryimage17,
     Images.Factoryimage18,
     Images.Factoryimage19,
