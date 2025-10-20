@@ -6,12 +6,11 @@ export default function FactoryTour() {
   const FactoryImages = [
     Images.Factoryimage1,
     Images.Factoryimage2,
-
+  Images.Factoryimage3,
 
     Images.Factoryimage5,
     Images.Factoryimage6,
     Images.Factoryimage7,
-
   
     Images.Factoryimage10,
     Images.Factoryimage11,
@@ -23,6 +22,7 @@ export default function FactoryTour() {
     Images.Factoryimage17,
     Images.Factoryimage18,
     Images.Factoryimage19,
+        Images.Factoryimage21,
   ];
 
   // ✅ Preload all images before showing them
