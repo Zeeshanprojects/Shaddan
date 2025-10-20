@@ -8,7 +8,7 @@ export default function QualityPolicy() {
           {/* Main Heading */}
           <div className="text-center">
             <h2 className="fw-bold text-success">QUALITY POLICY</h2>
-            <p className="text-muted fs-5">
+            <p className="text-muted">
               Committed to excellence through innovation, consistency, and
               precision in every process.
             </p>

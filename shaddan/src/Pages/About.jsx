@@ -9,13 +9,15 @@ export default function About() {
           <h2 className="fw-bold text-uppercase text-success mb-3">
             About Shaddan Textiles
           </h2>
-          <p className="text-muted fs-5">
-            Excellence in Home Textile Manufacturing Since 1996
+          <p className="text-muted">
+            Excellence in Home Textile Manufacturing Since 1996. Trusted for
+            quality, innovation and timely global delivery.
           </p>
+          <hr className="w-25 mx-auto text-success opacity-75" />
         </div>
 
         {/* About Description */}
-        <div className="row align-items-center">
+        <div className="row align-items-center mt-5">
           <div className="col-lg-12">
             <p className="about-text">
               Venturing into the field of <b>Home Textile</b>,{" "}
@@ -99,25 +101,31 @@ export default function About() {
               worldwide.
             </p>
 
-           <h3 className="fw-bold text-success mb-3">Certifications</h3>
-<p className="text-muted mb-3">
-  We ensure that all our products meet international quality and sustainability standards.
-</p>
-<ul className="text-muted">
-  <li>
-    All products are manufactured according to <strong>Oeko-Tex Standard 100</strong>, ensuring they are free from harmful dyes and chemicals.
-  </li>
-  <li>
-    We are <strong>GOTS certified</strong> for our organic textile manufacturing.
-  </li>
-  <li>
-    Enrolled with the <strong>Better Cotton Initiative (BCI)</strong> for responsible cotton sourcing.
-  </li>
-  <li>
-    <strong>BSCI certified</strong>, meeting all major international quality and social compliance standards.
-  </li>
-</ul>
-
+            <h3 className="fw-bold text-success mb-3">Certifications</h3>
+            <p className="text-muted mb-3">
+              We ensure that all our products meet international quality and
+              sustainability standards.
+            </p>
+            <ul className="text-muted">
+              <li>
+                All products are manufactured according to{" "}
+                <strong>Oeko-Tex Standard 100</strong>, ensuring they are free
+                from harmful dyes and chemicals.
+              </li>
+              <li>
+                We are <strong>GOTS certified</strong> for our organic textile
+                manufacturing.
+              </li>
+              <li>
+                Enrolled with the{" "}
+                <strong>Better Cotton Initiative (BCI)</strong> for responsible
+                cotton sourcing.
+              </li>
+              <li>
+                <strong>BSCI certified</strong>, meeting all major international
+                quality and social compliance standards.
+              </li>
+            </ul>
           </div>
         </div>
       </div>

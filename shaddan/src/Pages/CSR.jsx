@@ -14,6 +14,7 @@ export default function CSR() {
             measured by business growth but also by the positive impact we
             create for our employees, society, and the environment.
           </p>
+                      <hr className="w-25 mx-auto text-success opacity-75" />
         </div>
 
         {/* Commitment Section */}
