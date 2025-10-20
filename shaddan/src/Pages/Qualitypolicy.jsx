@@ -20,7 +20,7 @@ export default function QualityPolicy() {
             <div className="col-lg-12">
               <div className="p-4 rounded-3">
                 <h4 className="fw-bold text-success mb-3">Quality Assurance</h4>
-                <p className="text-muted">
+                <p className="text-muted text-justify">
                   At Shaddan Textile Industries, we follow a “Quality at the
                   Source” approach to ensure that every process and product
                   meets international standards from the very beginning. Our
@@ -46,7 +46,7 @@ export default function QualityPolicy() {
                 <h4 className="fw-bold text-success mb-3">
                   Dyeing and Finishing
                 </h4>
-                <p className="text-muted">
+                <p className="text-muted text-justify">
                   Our Dyeing and Finishing Division utilizes state-of-the-art
                   machinery to deliver uniform, vibrant, and durable color
                   finishes across various fabric types. Advanced Theis dyeing
@@ -69,7 +69,7 @@ export default function QualityPolicy() {
             <div className="col-lg-12">
               <div className="p-4 rounded-3 ">
                 <h4 className="fw-bold text-success mb-3">Fabric Division</h4>
-                <p className="text-muted">
+                <p className="text-muted text-justify">
                   Our Fabric Division is the backbone of our operations,
                   producing a variety of knitted fabrics that cater to global
                   fashion and industrial needs. From single jersey and interlock
@@ -92,7 +92,7 @@ export default function QualityPolicy() {
             <div className="col-lg-12">
               <div className="p-4 rounded-3">
                 <h4 className="fw-bold text-success mb-3">Garment Division</h4>
-                <p className="text-muted">
+                <p className="text-muted text-justify">
                   The Garment Division is dedicated to manufacturing ready-made
                   apparel that blends comfort, style, and durability. We produce
                   knitted and woven garments including t-shirts, polos,
