@@ -36,7 +36,7 @@ export default function Qualitypolicy() {
           </div>
 
           {/* Section 2 - Dyeing and Finishing */}
-          <div className="row align-items-center flex-lg-row-reverse mb-5">
+          <div className="row align-items-center  mb-5">
             <div className="col-lg-6 mb-4 mb-lg-0">
               <h2 className="fw-bold text-success mb-3">
                 Dyeing and Finishing
@@ -96,7 +96,7 @@ export default function Qualitypolicy() {
           </div>
 
           {/* Section 4 - Garment Division */}
-          <div className="row align-items-center flex-lg-row-reverse">
+          <div className="row align-items-center ">
             <div className="col-lg-6 mb-4 mb-lg-0">
               <h2 className="fw-bold text-success mb-3">Garment Division</h2>
               <p className="text-muted">
