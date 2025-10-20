@@ -16,7 +16,7 @@ export default function Contact() {
         </div>
 
         <div className="container">
-          <div className="row ">
+          <div className="row gy-5">
             {/* Left Side - Contact Info */}
             <div className="col-12 col-md-6">
               <h4 className="fw-bold mb-3 text-success">Shaddan Enterprises</h4>
