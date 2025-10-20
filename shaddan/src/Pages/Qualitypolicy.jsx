@@ -3,7 +3,7 @@ import React from "react";
 export default function QualityPolicy() {
   return (
     <>
-      <div className="quality-section py-5 bg-light">
+      <div className="quality-section py-5">
         <div className="container">
           {/* Main Heading */}
           <div className="text-center">
@@ -19,7 +19,7 @@ export default function QualityPolicy() {
           <div className="row align-items-center ">
             <div className="col-lg-12">
               <div className="p-4 rounded-3">
-                <h3 className="fw-bold text-success mb-3">Quality Assurance</h3>
+                <h4 className="fw-bold text-success mb-3">Quality Assurance</h4>
                 <p className="text-muted">
                   At Shaddan Textile Industries, we follow a “Quality at the
                   Source” approach to ensure that every process and product
@@ -43,9 +43,9 @@ export default function QualityPolicy() {
           <div className="row align-items-center">
             <div className="col-lg-12">
               <div className="p-4 rounded-3  ">
-                <h3 className="fw-bold text-success mb-3">
+                <h4 className="fw-bold text-success mb-3">
                   Dyeing and Finishing
-                </h3>
+                </h4>
                 <p className="text-muted">
                   Our Dyeing and Finishing Division utilizes state-of-the-art
                   machinery to deliver uniform, vibrant, and durable color
@@ -68,7 +68,7 @@ export default function QualityPolicy() {
           <div className="row align-items-center ">
             <div className="col-lg-12">
               <div className="p-4 rounded-3 ">
-                <h3 className="fw-bold text-success mb-3">Fabric Division</h3>
+                <h4 className="fw-bold text-success mb-3">Fabric Division</h4>
                 <p className="text-muted">
                   Our Fabric Division is the backbone of our operations,
                   producing a variety of knitted fabrics that cater to global
@@ -91,7 +91,7 @@ export default function QualityPolicy() {
           <div className="row align-items-center">
             <div className="col-lg-12">
               <div className="p-4 rounded-3">
-                <h3 className="fw-bold text-success mb-3">Garment Division</h3>
+                <h4 className="fw-bold text-success mb-3">Garment Division</h4>
                 <p className="text-muted">
                   The Garment Division is dedicated to manufacturing ready-made
                   apparel that blends comfort, style, and durability. We produce

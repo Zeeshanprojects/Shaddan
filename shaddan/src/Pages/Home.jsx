@@ -200,86 +200,95 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <div className="stats-section py-2 bg-light text-center">
-        <div className="container p-5">
+   <div
+        className="stats-section text-center py-5 position-relative"
+        style={{
+          backgroundImage:
+            "url('https://t4.ftcdn.net/jpg/02/48/73/62/360_F_248736289_dPoqf5gSWVEHZFbHshCMGPaWQmMz6IoP.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        {/* Light overlay for better readability */}
+        <div className="overlay position-absolute top-0 start-0 w-100 h-100 bg-white opacity-75"></div>
+
+        <div className="container position-relative p-5">
           {/* Section Heading */}
           <div className="mb-5">
-            <h2 className="fw-bold text-success text-uppercase">
+            <h2 className="fw-bold text-success text-uppercase display-6">
               Our Achievements
             </h2>
-            <p className="text-muted">
-              Over the years, Shaddan Textiles has grown with dedication,
-              innovation, and excellence — delivering quality products across
-              the globe.
+            <p className="text-muted fs-5">
+              Over the years, <b>Shaddan Textiles</b> has flourished through
+              dedication, innovation, and excellence — delivering quality
+              products and building long-lasting partnerships worldwide.
             </p>
           </div>
 
           {/* Stats Row */}
           <div className="row gy-4">
             <div className="col-sm-6 col-md-6 col-lg-3">
-              <div className="p-4 bg-white shadow-sm rounded-4 h-100 ">
+              <div className="p-4 bg-white shadow rounded-4 h-100 hover-shadow">
                 <img
                   src={Images.icon1}
                   alt="Yarn Exported"
-                  height={60}
+                  height={65}
                   className="mb-3"
                 />
                 <h3 className="fw-bold text-success">40+</h3>
-                <h5 className="fw-semibold heading-text">Yarn Exported</h5>
+                <h5 className="fw-semibold text-dark">Yarn Exported</h5>
                 <p className="text-muted small">
-                  Supplying premium yarns to global markets with consistency and
-                  quality.
+                  Supplying premium yarns to international markets with trust and
+                  consistency.
                 </p>
               </div>
             </div>
 
             <div className="col-sm-6 col-md-6 col-lg-3">
-              <div className="p-4 bg-white shadow-sm rounded-4 h-100 ">
+              <div className="p-4 bg-white shadow rounded-4 h-100 hover-shadow">
                 <img
                   src={Images.icon2}
                   alt="Fabrics Delivered"
-                  height={60}
+                  height={65}
                   className="mb-3"
                 />
                 <h3 className="fw-bold text-success">10+</h3>
-                <h5 className="fw-semibold heading-text">Exported Countries</h5>
+                <h5 className="fw-semibold text-dark">Exported Countries</h5>
                 <p className="text-muted small">
-                  Delivering woven and knitted fabrics meeting international
-                  standards.
+                  Delivering top-quality woven and knitted fabrics globally.
                 </p>
               </div>
             </div>
 
             <div className="col-sm-6 col-md-6 col-lg-3">
-              <div className="p-4 bg-white shadow-sm rounded-4 h-100 ">
+              <div className="p-4 bg-white shadow rounded-4 h-100 hover-shadow">
                 <img
                   src={Images.icon3}
                   alt="Global Clients"
-                  height={60}
+                  height={65}
                   className="mb-3"
                 />
                 <h3 className="fw-bold text-success">100+</h3>
-                <h5 className="fw-semibold heading-text">Global Clients</h5>
+                <h5 className="fw-semibold text-dark">Global Clients</h5>
                 <p className="text-muted small">
-                  Proudly serving trusted clients across multiple continents.
+                  Partnering with trusted brands across continents.
                 </p>
               </div>
             </div>
 
             <div className="col-sm-6 col-md-6 col-lg-3">
-              <div className="p-4 bg-white shadow-sm rounded-4 h-100 ">
+              <div className="p-4 bg-white shadow rounded-4 h-100 hover-shadow">
                 <img
                   src={Images.icon4}
                   alt="Years of Experience"
-                  height={60}
+                  height={65}
                   className="mb-3"
                 />
                 <h3 className="fw-bold text-success">50+</h3>
-                <h5 className="fw-semibold heading-text">
-                  Years of Experience
-                </h5>
+                <h5 className="fw-semibold text-dark">Years of Experience</h5>
                 <p className="text-muted small">
-                  A legacy of excellence in textile manufacturing since 1996.
+                  A proud legacy of textile excellence since 1996.
                 </p>
               </div>
             </div>
