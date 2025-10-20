@@ -51,30 +51,51 @@ export default function Header() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
               <li className="nav-item">
-                <Link className="nav-link active" to="/" onClick={handleNavLinkClick}>
+                <Link
+                  className="nav-link active"
+                  to="/"
+                  onClick={handleNavLinkClick}
+                >
                   HOME
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" to="/about" onClick={handleNavLinkClick}>
+                <Link
+                  className="nav-link active"
+                  to="/about"
+                  onClick={handleNavLinkClick}
+                >
                   ABOUT
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" to="/qualitypolicy" onClick={handleNavLinkClick}>
+                <Link
+                  className="nav-link active"
+                  to="/qualitypolicy"
+                  onClick={handleNavLinkClick}
+                >
                   QUALITY POLICY
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link active" to="/factorytour" onClick={handleNavLinkClick}>
-                  FACTORY TOUR
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link active" to="/csr" onClick={handleNavLinkClick}>
+               <li className="nav-item">
+                <Link
+                  className="nav-link active"
+                  to="/csr"
+                  onClick={handleNavLinkClick}
+                >
                   CSR
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link active"
+                  to="/factorytour"
+                  onClick={handleNavLinkClick}
+                >
+                  FACTORY TOUR
+                </Link>
+              </li>
+             
             </ul>
 
             {/* Contact Button */}

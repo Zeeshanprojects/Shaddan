@@ -6,9 +6,9 @@ export default function About() {
       <div className="container">
         {/* Header Section */}
         <div className="mb-3 text-center">
-          <h1 className="fw-bold text-uppercase text-success mb-3">
+          <h2 className="fw-bold text-uppercase text-success mb-3">
             About Shaddan Textiles
-          </h1>
+          </h2>
           <p className="text-muted fs-5">
             Excellence in Home Textile Manufacturing Since 1996
           </p>

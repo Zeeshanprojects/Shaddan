@@ -1,124 +1,113 @@
 import React from "react";
-import Images from "../assets/Images/Image";
 
-export default function Qualitypolicy() {
+export default function QualityPolicy() {
   return (
     <>
-      <div className="quality-section py-5">
+      <div className="quality-section py-5 bg-light">
         <div className="container">
+          {/* Main Heading */}
+          <div className="text-center">
+            <h2 className="fw-bold text-success">QUALITY POLICY</h2>
+            <p className="text-muted fs-5">
+              Committed to excellence through innovation, consistency, and
+              precision in every process.
+            </p>
+            <hr className="w-25 mx-auto text-success opacity-75" />
+          </div>
+
           {/* Section 1 - Quality Assurance */}
-          <div className="row align-items-center mb-5">
-            <div className="col-lg-6 mb-4 mb-lg-0">
-              <h2 className="fw-bold text-success mb-3">Quality Assurance</h2>
-              <p className="text-muted">
-                Shaddan Textile Industries believes in and practices a{" "}
-                <b>“Quality at the Source”</b> philosophy to ensure all products
-                and services meet or exceed customer expectations at competitive
-                prices. Every individual follows established procedures and
-                policies to ensure it’s done right — the first time and every
-                time.
-              </p>
-              <p className="text-muted">
-                As followers of the <b>Six Sigma</b> approach, our goal is to
-                pursue <b>Zero Defect Quality</b>. Our quality assurance team
-                continuously monitors processes to ensure adherence to
-                international standards, while fostering innovation and
-                continuous improvement.
-              </p>
-            </div>
-            <div className="col-lg-6 text-center">
-              <img
-                src={Images.Quality}
-                alt="Quality Assurance"
-                className="img-fluid rounded-3 shadow-sm"
-              />
+          <div className="row align-items-center ">
+            <div className="col-lg-12">
+              <div className="p-4 rounded-3">
+                <h3 className="fw-bold text-success mb-3">Quality Assurance</h3>
+                <p className="text-muted">
+                  At Shaddan Textile Industries, we follow a “Quality at the
+                  Source” approach to ensure that every process and product
+                  meets international standards from the very beginning. Our
+                  team ensures that every fabric, accessory, and garment is
+                  thoroughly inspected before moving to the next stage,
+                  eliminating the possibility of rework or wastage. Our quality
+                  management system is guided by Six Sigma methodologies,
+                  focusing on continuous improvement and zero defect production.
+                  We encourage a culture where quality is everyone’s
+                  responsibility — from the production floor to the final
+                  dispatch. Every member of our organization is trained to
+                  maintain quality consistency, ensuring customer satisfaction
+                  and trust through superior textile solutions.
+                </p>
+              </div>
             </div>
           </div>
 
           {/* Section 2 - Dyeing and Finishing */}
-          <div className="row align-items-center  mb-5">
-            <div className="col-lg-6 mb-4 mb-lg-0">
-              <h2 className="fw-bold text-success mb-3">
-                Dyeing and Finishing
-              </h2>
-              <p className="text-muted">
-                Our Dyeing & Finishing Division operates with advanced{" "}
-                <b>Theis dyeing machines</b> with a production capacity of 8
-                tons per day. Our finishing line includes equipment from global
-                leaders such as Tube Tex (USA), Kranz Stenter (Germany), and
-                Heliot Dryer (France).
-              </p>
-              <p className="text-muted">
-                We ensure superior dyeing for 100% cotton, blended, and
-                polyester fabrics using{" "}
-                <b>Oeko-Tex certified eco-friendly dyes</b>. Each batch meets
-                international standards of dimensional stability and color
-                fastness.
-              </p>
-            </div>
-            <div className="col-lg-6 text-center">
-              <img
-                src={Images.Dyeing}
-                alt="Dyeing and Finishing"
-                className="img-fluid rounded-3 shadow-sm"
-              />
+          <div className="row align-items-center">
+            <div className="col-lg-12">
+              <div className="p-4 rounded-3  ">
+                <h3 className="fw-bold text-success mb-3">
+                  Dyeing and Finishing
+                </h3>
+                <p className="text-muted">
+                  Our Dyeing and Finishing Division utilizes state-of-the-art
+                  machinery to deliver uniform, vibrant, and durable color
+                  finishes across various fabric types. Advanced Theis dyeing
+                  machines and equipment from global leaders such as Tube Tex,
+                  Kranz Stenter, and Heliot Dryer help us achieve high
+                  production capacity with consistency. We strictly use Oeko-Tex
+                  certified dyes to ensure eco-friendly production while
+                  maintaining color fastness, shrinkage control, and texture
+                  quality. Each batch undergoes laboratory testing to maintain
+                  reliability and excellence. This approach enables us to meet
+                  the demands of global clients who require precision in shades,
+                  uniformity, and environmental compliance.
+                </p>
+              </div>
             </div>
           </div>
 
           {/* Section 3 - Fabric Division */}
-          <div className="row align-items-center mb-5">
-            <div className="col-lg-6 mb-4 mb-lg-0">
-              <h2 className="fw-bold text-success mb-3">Fabric Division</h2>
-              <p className="text-muted">
-                Our Fabric Division specializes in a wide range of knitted
-                fabrics including{" "}
-                <b>
-                  Single Jersey, Interlock, Rib, Terry, Pique, Brush Back,
-                  Spandex Terry, Loop Back Terry, and Fleece Pointelle
-                </b>
-                .
-              </p>
-              <p className="text-muted">
-                We also manufacture{" "}
-                <b>Jacquards, Auto Stripers, and Transfer Jacquards</b> using
-                premium natural and blended fibers like Viscose, Modal, and
-                yarn-dyed materials — ensuring versatility and quality in every
-                yard.
-              </p>
-            </div>
-            <div className="col-lg-6 text-center">
-              <img
-                src={Images.Fabric}
-                alt="Fabric Division"
-                className="img-fluid rounded-3 shadow-sm"
-              />
+          <div className="row align-items-center ">
+            <div className="col-lg-12">
+              <div className="p-4 rounded-3 ">
+                <h3 className="fw-bold text-success mb-3">Fabric Division</h3>
+                <p className="text-muted">
+                  Our Fabric Division is the backbone of our operations,
+                  producing a variety of knitted fabrics that cater to global
+                  fashion and industrial needs. From single jersey and interlock
+                  to rib, pique, terry, and fleece fabrics — every fabric is
+                  crafted with attention to detail. We also specialize in
+                  engineered fabrics such as auto stripers, jacquards, and
+                  transfer jacquards using natural and blended fibers including
+                  viscose, modal, and yarn-dyed materials. The result is a
+                  collection of fabrics that are soft, durable, and
+                  performance-driven. Our continuous focus on innovation ensures
+                  flexibility for various applications — from everyday wear to
+                  premium apparel exports.
+                </p>
+              </div>
             </div>
           </div>
 
           {/* Section 4 - Garment Division */}
-          <div className="row align-items-center ">
-            <div className="col-lg-6 mb-4 mb-lg-0">
-              <h2 className="fw-bold text-success mb-3">Garment Division</h2>
-              <p className="text-muted">
-                Our Garment Division focuses on the production of{" "}
-                <b>ready-made knitted and woven apparel</b> such as t-shirts,
-                polos, sweatshirts, hoodies, and casual wear. We deliver both
-                OEM and private label garments tailored to our clients’
-                specifications.
-              </p>
-              <p className="text-muted">
-                Each product is crafted under strict quality control using
-                modern stitching, cutting, and finishing machines. We ensure
-                that every piece reflects our commitment to{" "}
-                <b>comfort, durability, and global export standards</b>.
-              </p>
-            </div>
-            <div className="col-lg-6 text-center">
-              <img
-                src={Images.Garments}
-                alt="Garment Division"
-                className="img-fluid rounded-3 shadow-sm"
-              />
+          <div className="row align-items-center">
+            <div className="col-lg-12">
+              <div className="p-4 rounded-3">
+                <h3 className="fw-bold text-success mb-3">Garment Division</h3>
+                <p className="text-muted">
+                  The Garment Division is dedicated to manufacturing ready-made
+                  apparel that blends comfort, style, and durability. We produce
+                  knitted and woven garments including t-shirts, polos,
+                  sweatshirts, hoodies, and casual wear for international
+                  markets. Equipped with modern stitching, cutting, and
+                  finishing lines, we ensure that every product is crafted with
+                  precision and care. Each piece passes through rigorous quality
+                  control checks to guarantee perfect stitching, accurate
+                  sizing, and smooth finishing. Our aim is to deliver garments
+                  that reflect our commitment to quality craftsmanship, meeting
+                  the expectations of global clients and maintaining the
+                  reputation of Shaddan Textile Industries as a trusted apparel
+                  manufacturer.
+                </p>
+              </div>
             </div>
           </div>
         </div>
