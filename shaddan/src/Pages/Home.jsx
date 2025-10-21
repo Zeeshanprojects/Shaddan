@@ -30,7 +30,7 @@ export default function Home() {
       {/* Overlay Text */}
       {!isImageLoading && (
         <div className="overlay-text text-uppercase position-absolute top-50 start-50 translate-middle text-center text-white">
-          <h1 className="fw-bold">Welcome to Shaddan Textiles</h1>
+          <h1>Welcome to Shaddan Textiles</h1>
           <p>We Provide Quality Products</p>
         </div>
       )}
