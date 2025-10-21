@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import "./contact.css";
 import Images from "../assets/Images/Image";
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope,FaUserTie  } from "react-icons/fa";
+import {
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaUserTie,
+} from "react-icons/fa";
 
 export default function Contact() {
   const [isLoading, setIsLoading] = useState(true);
@@ -13,7 +18,8 @@ export default function Contact() {
         <div className="text-center mb-5">
           <h2 className="fw-bold text-success text-uppercase">Contact Us</h2>
           <p className="text-muted">
-            Feel free to contact us for more information about our company and products.
+            Feel free to contact us for more information about our company and
+            products.
           </p>
         </div>
 
@@ -27,7 +33,9 @@ export default function Contact() {
                   <FaMapMarkerAlt className="text-success fs-3" />
                 </div>
                 <h6 className="fw-bold text-dark">Address</h6>
-                <p className="text-muted small mb-0">D-14, S.I.T.E. Karachi - Pakistan</p>
+                <p className="text-muted small mb-0">
+                  D-14, S.I.T.E. Karachi - Pakistan
+                </p>
               </div>
             </div>
 
@@ -61,10 +69,12 @@ export default function Contact() {
             {/* CAO */}
             <div className="col-12 col-md-6 col-lg-3">
               <div className="contact-box shadow-sm rounded-4 p-4 bg-white h-100">
-             
-               <div className="plus-icon mb-3">
-  <FaUserTie className="text-success" style={{ fontSize: "2.2rem" }} />
-</div>
+                <div className="plus-icon mb-3">
+                  <FaUserTie
+                    className="text-success"
+                    style={{ fontSize: "2.2rem" }}
+                  />
+                </div>
 
                 <div>
                   <h6 className="fw-bold text-dark">C.A.O</h6>
@@ -73,12 +83,14 @@ export default function Contact() {
               </div>
             </div>
           </div>
-
-         </div>
+        </div>
 
         {/* Google Map (Full Width Below) */}
         <div className="container-fluid">
-          <div className="map-wrapper mx-auto shadow-sm rounded-4 overflow-hidden position-relative" style={{ maxWidth: "1200px" }}>
+          <div
+            className="map-wrapper mx-auto shadow-sm rounded-4 overflow-hidden position-relative"
+            style={{ maxWidth: "1200px" }}
+          >
             {isLoading && (
               <div className="d-flex justify-content-center align-items-center w-100 h-100 bg-light position-absolute top-0 start-0">
                 <div className="spinner-border text-success" role="status">
@@ -102,7 +114,8 @@ export default function Contact() {
         <div className="text-center mt-5">
           <h4 className="fw-bold text-success">We’d love to hear from you!</h4>
           <p className="text-muted">
-            Contact us for product specs, pricing, delivery, or samples for your evaluation.
+            Contact us for product specs, pricing, delivery, or samples for your
+            evaluation.
           </p>
         </div>
       </div>
