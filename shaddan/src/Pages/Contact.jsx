@@ -5,7 +5,7 @@ import {
   FaMapMarkerAlt,
   FaPhoneAlt,
   FaEnvelope,
-  FaUserTie,
+  FaUserAlt,
 } from "react-icons/fa";
 
 export default function Contact() {
@@ -70,9 +70,9 @@ export default function Contact() {
             <div className="col-12 col-md-6 col-lg-3">
               <div className="contact-box shadow-sm rounded-4 p-4 bg-white h-100">
                 <div className="plus-icon mb-3">
-                  <FaUserTie
-                    className="text-success"
-                    style={{ fontSize: "2.2rem" }}
+                  <FaUserAlt
+                    className="text-success fs-3"
+                  
                   />
                 </div>
 
