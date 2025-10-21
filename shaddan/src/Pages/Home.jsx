@@ -1,23 +1,40 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 import "./home.css";
 import Images from "../assets/Images/Image";
 import { Link } from "react-router-dom";
 export default function Home() {
+    const [isImageLoading, setIsImageLoading] = useState(true);
  
   return (
     <>
-      <div className="container-fluid p-0 position-relative ">
-        <img
-          src={Images.banner}
-          alt="Shaddan Textile Banner"
-          className="banner-image img-fluid"
-          fetchPriority="high"
-        />
-        <div className="overlay-text text-uppercase">
-          <h1>Welcome to Shaddan Textiles</h1>
+         <div className="container-fluid p-0 position-relative">
+      {/* Spinner shown until image loads */}
+      {isImageLoading && (
+        <div className="d-flex justify-content-center align-items-center w-100 h-100 bg-light position-absolute top-0 start-0">
+          <div className="spinner-grow text-success" role="status">
+            <span className="visually-hidden">Loading...</span>
+          </div>
+        </div>
+      )}
+
+      {/* Banner Image */}
+      <img
+        src={Images.banner}
+        alt="Shaddan Textile Banner"
+        className="banner-image img-fluid w-100"
+        fetchPriority="high"
+        onLoad={() => setIsImageLoading(false)} // hide spinner once image loads
+       
+      />
+
+      {/* Overlay Text */}
+      {!isImageLoading && (
+        <div className="overlay-text text-uppercase position-absolute top-50 start-50 translate-middle text-center text-white">
+          <h1 className="fw-bold">Welcome to Shaddan Textiles</h1>
           <p>We Provide Quality Products</p>
         </div>
-      </div>
+      )}
+    </div>
       <div className="container-fluid py-5 bg-light text-center">
         <div className="row mb-5">
           <h1 className="fw-bold text-uppercase text-success mb-2">

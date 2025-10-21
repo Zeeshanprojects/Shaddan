@@ -99,13 +99,13 @@ export default function Header() {
             </ul>
 
             {/* Contact Button */}
-            <form className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center">
               <Link to="/contact" onClick={handleNavLinkClick}>
                 <button className="btn btn-success ps-5 pe-5" type="submit">
                   Contact
                 </button>
               </Link>
-            </form>
+            </div>
           </div>
         </div>
       </nav>
