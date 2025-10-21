@@ -88,13 +88,7 @@ export default function CSR() {
           </p>
         </div>
 
-        {/* Closing Section */}
-        <div className="text-center mt-5">
-          <h5 className="fw-bold text-success">
-            “At Shaddan Textile Industries, Corporate Responsibility isn’t just
-            a policy — it’s a promise to create a better tomorrow.”
-          </h5>
-        </div>
+        
       </div>
     </div>
   );
