@@ -263,7 +263,7 @@ export default function Home() {
             </div>
 
             <div className="col-sm-6 col-md-6 col-lg-3">
-              <div className="p-4 bg-white shadow rounded-4 h-100 hover-shadow">
+              <div className="p-4 bg-white shadow rounded-4 h-100 hover-shadow icons">
                 <img
                   src={Images.icon2}
                   alt="Fabrics Delivered"
