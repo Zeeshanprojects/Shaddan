@@ -21,6 +21,7 @@ export default function Contact() {
             Feel free to contact us for more information about our company and
             products.
           </p>
+              <hr className="w-25 mx-auto text-success opacity-75" />
         </div>
 
         {/* Contact Info in Four Columns */}
@@ -70,10 +71,7 @@ export default function Contact() {
             <div className="col-12 col-md-6 col-lg-3">
               <div className="contact-box shadow-sm rounded-4 p-4 bg-white h-100">
                 <div className="plus-icon mb-3">
-                  <FaUserAlt
-                    className="text-success fs-3"
-                  
-                  />
+                  <FaUserAlt className="text-success fs-3" />
                 </div>
 
                 <div>

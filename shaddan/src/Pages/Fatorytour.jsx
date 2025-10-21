@@ -50,6 +50,7 @@ export default function FactoryTour() {
             Explore our state-of-the-art production facilities equipped with modern
             machinery, expert craftsmanship, and sustainable processes.
           </p>
+              <hr className="w-25 mx-auto text-success opacity-75" />
         </div>
 
         {/* Loader */}
