@@ -56,7 +56,7 @@ export default function Home() {
                 className="img-fluid rounded mb-3"
                 loading="lazy"
               />
-              <h4 className="fw-semibold text-success">Towels</h4>
+              <h4 className="fw-semibold">Towels</h4>
               <p className="text-muted small">
                 Luxuriously soft and absorbent terry towels crafted for ultimate
                 comfort and durability.
@@ -73,7 +73,7 @@ export default function Home() {
                 className="img-fluid rounded mb-3"
                 loading="lazy"
               />
-              <h4 className="fw-semibold text-success">Garments</h4>
+              <h4 className="fw-semibold ">Garments</h4>
               <p className="text-muted small">
                 High-quality knitted garments designed for comfort, flexibility,
                 and modern fashion appeal.
@@ -90,7 +90,7 @@ export default function Home() {
                 className="img-fluid rounded mb-3"
                 loading="lazy"
               />
-              <h4 className="fw-semibold text-success">Fitted Sheets</h4>
+              <h4 className="fw-semibold">Fitted Sheets</h4>
               <p className="text-muted small">
                 Smooth and breathable knitted fitted sheets ensuring a perfect
                 fit and restful sleep.
@@ -107,7 +107,7 @@ export default function Home() {
                 className="img-fluid rounded mb-3"
                 loading="lazy"
               />
-              <h4 className="fw-semibold text-success">Bathrobes</h4>
+              <h4 className="fw-semibold">Bathrobes</h4>
               <p className="text-muted small">
                 Elegant and cozy bathrobes made from premium fabrics to enhance
                 your comfort and style.

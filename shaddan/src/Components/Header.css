@@ -23,8 +23,7 @@
 }
 
 .nav-item .nav-link:hover {
-  color: #198553 !important;
-
+  color: darkgreen !important;
 }
 
 /* Mobile view fixes */
