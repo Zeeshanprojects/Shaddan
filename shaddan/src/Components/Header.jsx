@@ -30,9 +30,10 @@ export default function Header() {
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid d-flex align-items-center justify-content-between">
           {/* Logo */}
-          <a className="navbar-brand d-flex align-items-center" href="#">
+        
+          <Link className="navbar-brand d-flex align-items-center" to="/">
             <img src={Images.logo} alt="logo" height={50} width={150} />
-          </a>
+          </Link>
 
           {/* Toggler */}
           <button
